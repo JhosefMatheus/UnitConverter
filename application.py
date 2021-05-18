@@ -1,4 +1,7 @@
 from tkinter import *
+from converter import *
+
+converter = Converter()
 
 window = Tk()
 
@@ -17,29 +20,26 @@ window.configure(
 )
 window.resizable(False, False)
 
-options_drop_down_1 = [
-    'Armazenamento de Dados',
-    'Comprimento',
-    'Consumo de Energia',
-    'Energia Mecânica',
-    'Frequência',
-    'Massa',
-    'Pressão',
-    'Temperatura',
-    'Tempo',
-    'Transmissão de dados',
-    'Velocidade',
-    'Volume',
-    'Área',
-    'Ângulo'
+options_drop_down_3 = [
+    'Quilômetro',
+    'Metro',
+    'Centímetro',
+    'Milímetro',
+    'Micrômetro',
+    'Nanômetro',
+    'Milha',
+    'Jarda',
+    'Pé',
+    'Polegada',
+    'Milha náutica'
 ]
-default_drop_down_1 = options_drop_down_1[1]
-stringVar_drop_down_1 = StringVar(window)
-stringVar_drop_down_1.set(default_drop_down_1)
-drop_down_1 = OptionMenu(
+default_drop_down_3 = options_drop_down_3[1]
+stringVar_drop_down_3 = StringVar(window)
+stringVar_drop_down_3.set(default_drop_down_3)
+drop_down_3 = OptionMenu(
     window,
-    stringVar_drop_down_1,
-    *options_drop_down_1
+    stringVar_drop_down_3,
+    *options_drop_down_3
 )
 
 options_drop_down_2 = [
@@ -64,26 +64,30 @@ drop_down_2 = OptionMenu(
     *options_drop_down_2
 )
 
-options_drop_down_3 = [
-    'Quilômetro',
-    'Metro',
-    'Centímetro',
-    'Milímetro',
-    'Micrômetro',
-    'Nanômetro',
-    'Milha',
-    'Jarda',
-    'Pé',
-    'Polegada',
-    'Milha náutica'
+options_drop_down_1 = [
+    'Armazenamento de Dados',
+    'Comprimento',
+    'Consumo de Energia',
+    'Energia Mecânica',
+    'Frequência',
+    'Massa',
+    'Pressão',
+    'Temperatura',
+    'Tempo',
+    'Transmissão de dados',
+    'Velocidade',
+    'Volume',
+    'Área',
+    'Ângulo'
 ]
-default_drop_down_3 = options_drop_down_3[1]
-stringVar_drop_down_3 = StringVar(window)
-stringVar_drop_down_3.set(default_drop_down_3)
-drop_down_3 = OptionMenu(
+default_drop_down_1 = options_drop_down_1[1]
+stringVar_drop_down_1 = StringVar(window)
+stringVar_drop_down_1.set(default_drop_down_1)
+drop_down_1 = OptionMenu(
     window,
-    stringVar_drop_down_3,
-    *options_drop_down_3
+    stringVar_drop_down_1,
+    *options_drop_down_1,
+    command=converter.change_option_menu(stringVar_drop_down_1.get(), drop_down_2, drop_down_3)
 )
 
 entry = Entry(
@@ -124,5 +128,7 @@ drop_down_3.place(x=375, y=150)
 entry.place(x=7, y=110)
 label_result.place(x=375, y=110)
 label_equal.place(x=283, y=153)
+
+print(stringVar_drop_down_1.get())
 
 window.mainloop()
