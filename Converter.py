@@ -1,4 +1,3 @@
-import tkinter as tk
 
 
 class Converter:
@@ -177,201 +176,90 @@ class Converter:
             'Segundo de arco'
         ]
 
-    def change_options_menu(self, stringVar_drop_down_1, stringVar_drop_down_2, stringVar_drop_down_3, drop_down_2, drop_down_3):
-        atual_option = stringVar_drop_down_1.get()
+    def change_options_menu(self, drop_down_1, drop_down_2, drop_down_3):
+        if drop_down_1.get() == 'Armazenamento de Dados':
+            drop_down_2.config(value=self.options_armazenamento_de_dados)
+            drop_down_3.config(value=self.options_armazenamento_de_dados)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-        if atual_option == 'Armazenamento de Dados':
+        elif drop_down_1.get() == 'Comprimento':
+            drop_down_2.config(value=self.options_comprimento)
+            drop_down_3.config(value=self.options_comprimento)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-            stringVar_drop_down_2.set('Byte')
-            drop_down_2['menu'].delete(0, 'end')
+        elif drop_down_1.get() == 'Consumo de Combustível':
+            drop_down_2.config(value=self.options_consumo_de_combustivel)
+            drop_down_3.config(value=self.options_consumo_de_combustivel)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-            stringVar_drop_down_3.set('Byte')
-            drop_down_3['menu'].delete(0, 'end')
+        elif drop_down_1.get() == 'Energia Mecânica':
+            drop_down_2.config(value=self.options_energia_mecanica)
+            drop_down_3.config(value=self.options_energia_mecanica)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-            for option in self.options_armazenamento_de_dados:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
+        elif drop_down_1.get() == 'Frequência':
+            drop_down_2.config(value=self.options_frequencia)
+            drop_down_3.config(value=self.options_frequencia)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-        elif atual_option == 'Comprimento':
+        elif drop_down_1.get() == 'Massa':
+            drop_down_2.config(value=self.options_massa)
+            drop_down_3.config(value=self.options_massa)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-            stringVar_drop_down_2.set('Metro')
-            drop_down_2['menu'].delete(0, 'end')
+        elif drop_down_1.get() == 'Pressão':
+            drop_down_2.config(value=self.options_pressao)
+            drop_down_3.config(value=self.options_pressao)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-            stringVar_drop_down_3.set('Metro')
-            drop_down_3['menu'].delete(0, 'end')
+        elif drop_down_1.get() == 'Temperatura':
+            drop_down_2.config(value=self.options_temperatura)
+            drop_down_3.config(value=self.options_temperatura)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-            for option in self.options_comprimento:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
+        elif drop_down_1.get() == 'Tempo':
+            drop_down_2.config(value=self.options_tempo)
+            drop_down_3.config(value=self.options_tempo)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-        elif atual_option == 'Consumo de Combustível':
+        elif drop_down_1.get() == 'Transmissão de dados':
+            drop_down_2.config(value=self.options_transmissao_de_dados)
+            drop_down_3.config(value=self.options_transmissao_de_dados)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-            stringVar_drop_down_2.set('Quilômetro por litro')
-            drop_down_2['menu'].delete(0, 'end')
+        elif drop_down_1.get() == 'Velocidade':
+            drop_down_2.config(value=self.options_velocidade)
+            drop_down_3.config(value=self.options_velocidade)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-            stringVar_drop_down_3.set('Quilômetro por litro')
-            drop_down_3['menu'].delete(0, 'end')
+        elif drop_down_1.get() == 'Volume':
+            drop_down_2.config(value=self.options_volume)
+            drop_down_3.config(value=self.options_volume)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-            for option in self.options_consumo_de_combustivel:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
+        elif drop_down_1.get() == 'Área':
+            drop_down_2.config(value=self.options_area)
+            drop_down_3.config(value=self.options_area)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-        elif atual_option == 'Energia Mecânica':
+        elif drop_down_1.get() == 'Ângulo':
+            drop_down_2.config(value=self.options_angulo)
+            drop_down_3.config(value=self.options_angulo)
+            drop_down_2.current(0)
+            drop_down_3.current(0)
 
-            stringVar_drop_down_2.set('Joule')
-            drop_down_2['menu'].delete(0, 'end')
-
-            stringVar_drop_down_3.set('Joule')
-            drop_down_3['menu'].delete(0, 'end')
-
-            for option in self.options_energia_mecanica:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
-
-        elif atual_option == 'Frequência'[4]:
-
-            stringVar_drop_down_2.set('Hertz')
-            drop_down_2['menu'].delete(0, 'end')
-
-            stringVar_drop_down_3.set('Hertz')
-            drop_down_3['menu'].delete(0, 'end')
-
-            for option in self.options_frequencia:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
-
-        elif atual_option == 'Massa':
-
-            stringVar_drop_down_2.set('Quilograma')
-            drop_down_2['menu'].delete(0, 'end')
-
-            stringVar_drop_down_3.set('Quilograma')
-            drop_down_3['menu'].delete(0, 'end')
-
-            for option in self.options_massa:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
-
-        elif atual_option == 'Pressão':
-
-            stringVar_drop_down_2.set('Pascal')
-            drop_down_2['menu'].delete(0, 'end')
-
-            stringVar_drop_down_3.set('Pascal')
-            drop_down_3['menu'].delete(0, 'end')
-
-            for option in self.options_pressao:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
-
-        elif atual_option == 'Temperatura':
-
-            stringVar_drop_down_2.set('Grau Celsius')
-            drop_down_2['menu'].delete(0, 'end')
-
-            stringVar_drop_down_3.set('Grau Celsius')
-            drop_down_3['menu'].delete(0, 'end')
-
-            for option in self.options_temperatura:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
-
-        elif atual_option == 'Tempo':
-
-            stringVar_drop_down_2.set('Segundo')
-            drop_down_2['menu'].delete(0, 'end')
-
-            stringVar_drop_down_3.set('Segundo')
-            drop_down_3['menu'].delete(0, 'end')
-
-            for option in self.options_tempo:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
-
-        elif atual_option == 'Transmissão de dados':
-
-            stringVar_drop_down_2.set('Bit por segundo')
-            drop_down_2['menu'].delete(0, 'end')
-
-            stringVar_drop_down_3.set('Bit por segundo')
-            drop_down_3['menu'].delete(0, 'end')
-
-            for option in self.options_transmissao_de_dados:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
-
-        elif atual_option == 'Velocidade':
-
-            stringVar_drop_down_2.set('Metro por segundo')
-            drop_down_2['menu'].delete(0, 'end')
-
-            stringVar_drop_down_3.set('Metro por segundo')
-            drop_down_3['menu'].delete(0, 'end')
-
-            for option in self.options_velocidade:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
-
-        elif atual_option == 'Volume':
-
-            stringVar_drop_down_2.set('Litro')
-            drop_down_2['menu'].delete(0, 'end')
-
-            stringVar_drop_down_3.set('Litro')
-            drop_down_3['menu'].delete(0, 'end')
-
-            for option in self.options_volume:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
-
-        elif atual_option == 'Área':
-
-            stringVar_drop_down_2.set('Metro quadrado')
-            drop_down_2['menu'].delete(0, 'end')
-
-            stringVar_drop_down_3.set('Metro quadrado')
-            drop_down_3['menu'].delete(0, 'end')
-
-            for option in self.options_area:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
-
-        elif atual_option == 'Ângulo':
-
-            stringVar_drop_down_2.set('Grau')
-            drop_down_2['menu'].delete(0, 'end')
-
-            stringVar_drop_down_3.set('Grau')
-            drop_down_3['menu'].delete(0, 'end')
-
-            for option in self.options_angulo:
-                drop_down_2['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_2, option))
-                drop_down_3['menu'].add_command(
-                    label=option, command=tk._setit(stringVar_drop_down_3, option))
+    def change_label_formula_text(self, label_formula, drop_down_2, drop_down_3):
+        print(drop_down_2.get_value())

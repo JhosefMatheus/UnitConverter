@@ -1,6 +1,5 @@
 from tkinter import *
-import tkinter as tk
-from itertools import product
+from tkinter import ttk
 from Converter import *
 
 converter = Converter()
@@ -24,8 +23,12 @@ window.resizable(False, False)
 
 
 def change_options_menu(event):
-    converter.change_options_menu(
-        stringVar_drop_down_1, stringVar_drop_down_2, stringVar_drop_down_3, drop_down_2, drop_down_3)
+    converter.change_options_menu(drop_down_1, drop_down_2, drop_down_3)
+
+
+def change_label_formula_text(event):
+    converter.change_label_formula_text(
+        label_formula, drop_down_2, drop_down_3)
 
 
 options_drop_down_1 = [
@@ -44,59 +47,49 @@ options_drop_down_1 = [
     'Área',
     'Ângulo'
 ]
-default_drop_down_1 = options_drop_down_1[1]
-stringVar_drop_down_1 = StringVar(window)
-stringVar_drop_down_1.set(default_drop_down_1)
-drop_down_1 = OptionMenu(
+drop_down_1 = ttk.Combobox(
     window,
-    stringVar_drop_down_1,
-    *options_drop_down_1,
-    command=change_options_menu
+    values=options_drop_down_1
 )
 
 drop_down_1['width'] = w
 drop_down_1['font'] = 'Arial 20'
-drop_down_1['anchor'] = 'w'
+drop_down_1.current(1)
+drop_down_1.bind('<<ComboboxSelected>>', change_options_menu)
 
 options_drop_down_2 = converter.options_comprimento
-default_drop_down_2 = options_drop_down_2[1]
-stringVar_drop_down_2 = StringVar(window)
-stringVar_drop_down_2.set(default_drop_down_2)
-drop_down_2 = OptionMenu(
+drop_down_2 = ttk.Combobox(
     window,
-    stringVar_drop_down_2,
-    *options_drop_down_2
+    values=options_drop_down_2
 )
 
 drop_down_2['width'] = 15
 drop_down_2['font'] = 'Arial 20'
-drop_down_2['anchor'] = 'w'
+drop_down_2.current(0)
+drop_down_2.bind('<<ComboboxSelected>>', change_label_formula_text)
 
 options_drop_down_3 = converter.options_comprimento
-default_drop_down_3 = options_drop_down_3[1]
-stringVar_drop_down_3 = StringVar(window)
-stringVar_drop_down_3.set(default_drop_down_3)
-drop_down_3 = OptionMenu(
+drop_down_3 = ttk.Combobox(
     window,
-    stringVar_drop_down_3,
-    *options_drop_down_3
+    values=options_drop_down_3
 )
 
 drop_down_3['width'] = 15
 drop_down_3['font'] = 'Arial 20'
-drop_down_3['anchor'] = 'w'
+drop_down_3.current(0)
+drop_down_3.bind('<<ComboboxSelected>>', change_label_formula_text)
 
 
 entry = Entry(
     window,
-    width=19,
+    width=17,
     font='Arial 19'
 )
 
 label_result = Label(
     window,
     font='Arial 18',
-    width=19
+    width=17
 )
 
 label_equal = Label(
@@ -111,7 +104,7 @@ label_formula = Label(
     window,
     font='Arial 20',
     bg='gray',
-    text='Fórmula: '
+    text='Fórmula:'
 )
 
 drop_down_1.pack()
