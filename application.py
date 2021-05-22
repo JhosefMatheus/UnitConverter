@@ -28,7 +28,7 @@ def change_options_menu(event):
 
 def change_label_formula_text(event):
     converter.change_label_formula_text(
-        label_formula, drop_down_2, drop_down_3)
+        label_formula, drop_down_1, drop_down_2, drop_down_3)
 
 
 options_drop_down_1 = [
@@ -102,7 +102,7 @@ label_equal = Label(
 
 label_formula = Label(
     window,
-    font='Arial 20',
+    font='Arial 12',
     bg='gray',
     text='Fórmula:'
 )

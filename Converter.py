@@ -1,4 +1,4 @@
-
+import itertools
 
 class Converter:
     def __init__(self):
@@ -261,5 +261,149 @@ class Converter:
             drop_down_2.current(0)
             drop_down_3.current(0)
 
-    def change_label_formula_text(self, label_formula, drop_down_2, drop_down_3):
-        print(drop_down_2.get_value())
+    def change_label_formula_text(self, label_formula, drop_down_1, drop_down_2, drop_down_3):
+        if drop_down_1.get() == 'Armazenamento de Dados':
+
+            option_drop_down_2 = drop_down_2.get()
+            option_drop_down_3 = drop_down_3.get()
+
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Kilobit':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1000'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Kibibit':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1024'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Megabit':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1e+6'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Mebibit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 1,049e+6'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Gigabit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 1e+9'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Gibibit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 1,074e+9'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Terabit':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1e+12'
+            
+            elif option_drop_down_2 =='Bit' and option_drop_down_3 == 'Tebibit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 1,1e+12'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Petabit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 1e+15'
+            
+            elif option_drop_down_2 =='Bit' and option_drop_down_3 == 'Pebibit':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1,126e+15'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Byte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Kilobyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8000'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Kibibyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8192'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 ==  'Megabyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8e+6'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Mebibyte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 8,389e+6'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Gigabyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8e+9'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Gibibyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8,59e+9'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Terabyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenmaneto de dados por 8e+12'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Tebibyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8,796+12'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Petabyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8e+15'
+            
+            elif option_drop_down_2 == 'Bit' and option_drop_down_3 == 'Pebibyte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 9,007e+15'
+        
+        elif drop_down_1.get() == 'Comprimento':
+            cartesian_product = itertools.product(self.options_comprimento, self.options_comprimento)
+
+            for product in cartesian_product:
+                print(product)
+        
+        elif drop_down_1.get() == 'Consumo de Combustível':
+            cartesian_product = itertools.product(self.options_consumo_de_combustivel, self.options_consumo_de_combustivel)
+
+            for product in cartesian_product:
+                print(product)
+        
+        elif drop_down_1.get() == 'Energia Mecãnica':
+            cartesian_product = itertools.product(self.options_energia_mecanica, self.options_energia_mecanica)
+
+            for product in cartesian_product:
+                print(product)
+
+        elif drop_down_1.get() == 'Frequência':
+            cartesian_product = itertools.product(self.options_frequencia, self.options_frequencia)
+
+            for product in cartesian_product:
+                print(product)
+        
+        elif drop_down_1.get() == 'Massa':
+            cartesian_product = itertools.product(self.options_massa, self.options_massa)
+
+            for product in cartesian_product:
+                print(product)
+        
+        elif drop_down_1.get() == 'Pressão':
+            cartesian_product = itertools.product(self.options_pressao, self.options_pressao)
+
+            for product in cartesian_product:
+                print(product)
+        
+        elif drop_down_1.get() == 'Temperatura':
+            cartesian_product = itertools.product(self.options_temperatura, self.options_temperatura)
+
+            for product in cartesian_product:
+                print(product)
+        
+        elif drop_down_1.get() == 'Tempo':
+            cartesian_product = itertools.product(self.options_tempo, self.options_tempo)
+
+            for product in cartesian_product:
+                print(product)
+        
+        elif drop_down_1.get() == 'Transmissão de dados':
+            cartesian_product = itertools.product(self.options_transmissao_de_dados, self.options_transmissao_de_dados)
+            
+            for product in cartesian_product:
+                print(product)
+        
+        elif drop_down_1.get() == 'Velocidade':
+            cartesian_product = itertools.product(self.options_velocidade, self.options_velocidade)
+
+            for product in cartesian_product:
+                print(product)
+        
+        elif drop_down_1.get() == 'Volume':
+            cartesian_product = itertools.product(self.options_volume, self.options_volume)
+
+            for product in cartesian_product:
+                print(product)
+        
+        elif drop_down_1.get() == 'Área':
+            cartesian_product = itertools.product(self.options_area, self.options_area)
+
+            for product in cartesian_product:
+                print(product)
+        
+        elif drop_down_1.get() == 'Ângulo':
+            cartesian_product = itertools.product(self.options_angulo, self.options_angulo)
