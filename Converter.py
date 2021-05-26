@@ -521,6 +521,132 @@ class Converter:
             
             elif option_drop_down_2 == 'Megabit' and option_drop_down_3 == 'Pebibyte':
                 label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 9,007e+9'
+
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Bit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de armazenamento\n de dados por 1,049e+6'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Kilobit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de armazenamento\n de dados por 1049'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Kibibit':
+                label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 1024'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Megabit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de armazenamento\n de dados por 1,049'
+
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Gigabit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 954'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Gibibit':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1024'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Terabit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 953674'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Tebibit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 1,049e+6'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Petabit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 9,537e+8'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Pebibit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 1,074e+9'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Byte':
+                label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 131072'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Kilobyte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de armazenamento\n de dados por 131'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Kibibyte':
+                label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 128'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Megabyte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 7,629'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'MebiByte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Gigabyte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 7629'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Gibibyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8192'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Terabyte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 7,629e+6'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Tebibyte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 8,389e+6'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Petabyte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 7,629e+9'
+            
+            elif option_drop_down_2 == 'Mebibit' and option_drop_down_3 == 'Pebibyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8,59e+9'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Bit':
+                label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 1e+9'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Kilobit':
+                label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 1e+6'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Kibibit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de armazenamento\n de dados por 976563'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Megabit':
+                label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 1000'
+
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Mebibit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de armazenamento\n de dados por 954'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Gibibit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 1,074'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Terabit':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1000'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Tebibit':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 1100'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Petabit':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1e+6'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Pebibit':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1,126e+6'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Byte':
+                label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 1,25e+8'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Kilobyte':
+                label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 125000'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Kibibyte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de armazenamento\n de dados por 122070'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Megabyte':
+                label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 125'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'MebiByte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de armazenamento\n de dados por 119'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Gigabyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Gibibyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8,59'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Terabyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8000'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Tebibyte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 8796'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Petabyte':
+                label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 8e+6'
+            
+            elif option_drop_down_2 == 'Gigabit' and option_drop_down_3 == 'Pebibyte':
+                label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento\n de dados por 9,007e+6'
         
         elif drop_down_1.get() == 'Comprimento':
             cartesian_product = itertools.product(self.options_comprimento, self.options_comprimento)
