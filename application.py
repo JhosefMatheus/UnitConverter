@@ -102,7 +102,6 @@ label_equal = Label(
 
 label_formula = Label(
     window,
-    font='Arial 12',
     bg='gray',
     text='Fórmula:'
 )
