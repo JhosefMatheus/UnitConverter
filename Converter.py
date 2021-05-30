@@ -1657,7 +1657,163 @@ class Converter:
                 label_formula['text'] = 'Fórmula: dmultiplique o valor de armazenamento de dados por 1,126'
 
         elif drop_down_1.get() == 'Comprimento':
-            pass
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+            
+            elif option_drop_down_2 == 'Quilômetro':
+                if option_drop_down_3 == 'Metro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1000'
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 100000'
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1e+6'
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1e+9'
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 1e+12'
+
+                elif option_drop_down_3 == 'Milha':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 1,609'
+                
+                elif option_drop_down_3 == 'Jarda':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 1094'
+
+                elif option_drop_down_3 == 'Pé':
+                    label_formula['text'] = 'Fórmula: para um reusltado aproximado, multiplique o valor de comprimento por 3281'
+                
+                elif option_drop_down_3 == 'Polegada':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 39370'
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1,852'
+            
+            elif option_drop_down_2 == 'Metro':
+                if option_drop_down_3 == 'Quilômetro':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1000'
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comrprimento por 100'
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1000'
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comrpimento por 1e+6'
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    label_formula['text'] = 'Fórmula: para um reusltado aproximado, multiplique o valor de comprimento por 1e+9'
+                
+                elif option_drop_down_3 == 'Milha':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 1609'
+                
+                elif option_drop_down_3 == 'Jarda':
+                    label_formula['text'] = 'Fórmula: para um reusltado aproximado, multiplique o valor de comprimento por 1,094'
+                
+                elif option_drop_down_3 == 'Pé':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 3,281'
+                
+                elif option_drop_down_3 == 'Polegada':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 39,37'
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1852'
+            
+            elif option_drop_down_2 == 'Centímetro':
+                if option_drop_down_3 == 'Quilômetro':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 100000'
+                
+                elif option_drop_down_3 == 'Metro':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 100'
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 10'
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 10000'
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1e+7'
+                
+                elif option_drop_down_3 == 'Milha':
+                    label_formula['text'] = 'Fórmula: pra um resultado aproximado, divida o valor de comprimento por 160394'
+                
+                elif option_drop_down_3 == 'Jarda':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 91,44'
+                
+                elif option_drop_down_3 == 'Pé':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 30,48'
+                
+                elif option_drop_down_3 == 'Polegada':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 2,54'
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 185200'
+            
+            elif option_drop_down_2 == 'Milímetro':
+                if option_drop_down_3 == 'Quilômetro':
+                    label_formula['text'] = 'Fórmula: divida o valor de comrpimento por 1e+6'
+                
+                elif option_drop_down_3 == 'Metro':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1000'
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 10'
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1000'
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1e+6'
+                
+                elif option_drop_down_3 == 'Milha':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 1,609e+6'
+                
+                elif option_drop_down_3 == 'Jarda':
+                    label_formula['text'] = 'Fórmula: para um reusltado aproximado, divida o valor de comprimento por 914'
+                
+                elif option_drop_down_3 == 'Pé':
+                    label_formula['text'] = 'Fórmula: para um reusltado aproximado, divida o valor de comprimento por 305'
+                
+                elif option_drop_down_3 == 'Polegada':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 25,4'
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1,852e+6'
+                
+            elif option_drop_down_2 == 'Micrômetro':
+                if option_drop_down_3 == 'Quilômetro':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1e+9'
+                
+                elif option_drop_down_3 == 'Metro':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1e+6'
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento 10000'
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento 1000'
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1000'
+                
+                elif option_drop_down_3 == 'Milha':
+                    label_formula['text'] = 'Fórmula: para um reusltado aproximado, divida o valor de comprimento por 1,609e+9'
+                
+                elif option_drop_down_3 == 'Jarda':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 914400'
+                
+                elif option_drop_down_3 == 'Pé':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 304800'
+                
+                elif option_drop_down_3 == 'Polegada':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 25400'
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1,852e+9'
 
         elif drop_down_1.get() == 'Consumo de Combustível':
             pass
