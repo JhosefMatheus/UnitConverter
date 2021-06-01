@@ -2045,14 +2045,451 @@ class Converter:
                 elif option_drop_down_3 == 'Quilômetro por litro':
                     label_formula['text'] = 'Fórmula: 100/(1 L/100 km) = 100 km/L'
 
-        elif drop_down_1.get() == 'Energia Mecãnica':
-            pass
+        elif drop_down_1.get() == 'Energia Mecânica':
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+            
+            elif option_drop_down_2 == 'Joule':
+                if option_drop_down_3 == 'Quilojoule':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 1000'
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 4,184'
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 4184'
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 3600'
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 3,6e+6'
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 6,242e+18'
+                
+                elif option_drop_down_3 == 'BTU':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 1055'
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 1,055e+8'
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 1,356'
+                
+            elif option_drop_down_2 == 'Quilojoule':
+                if option_drop_down_3 == 'Joule':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 1000'
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 239'
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 4,184'
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 3,6'
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 3600'
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'BTU':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 1,055'
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 105480'
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 738'
+            
+            elif option_drop_down_2 == 'Gram calorie':
+                if option_drop_down_3 == 'Joule':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 4,184'
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 239'
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 1000'
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 860'
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 860421'
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'BTU':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 252'
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 2,512e+7'
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 3,086'
+                
+            elif option_drop_down_2 == 'Quilocaloria':
+                if option_drop_down_3 == 'Joule':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 4184'
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 4,184'
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 1000'
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 1,162'
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 860'
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'BTU':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 3,966'
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecãnica por 25210'
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    label_formula['text'] = 'Fórmula: para um reusltado aproximado, multiplique o valor de energia mecânica por 3086'
+                
+            elif option_drop_down_2 == 'Watt-hora':
+                if option_drop_down_3 == 'Joule':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 3600'
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 3,6'
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 860'
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 1,162'
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 1000'
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'BTU':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 3,412'
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 29300'
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 2655'
+                
+            elif option_drop_down_2 == 'Quilowatt-hora':
+                if option_drop_down_3 == 'Joule':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 3,6e+6'
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 3600'
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 860421'
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    label_formula['text'] = 'Fórmula: para um reusltado aproximado, multiplique o vaor de energia mecânica por 860'
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 1000'
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'BTU':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 3412'
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 29,3'
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 2,655e+6'
+                
+            elif option_drop_down_2 == 'Elétron-volt':
+                if option_drop_down_3 == 'Joule':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 6,242e+18'
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'BTU':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
+                    
+                elif option_drop_down_3 == 'Pé-libra força':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 8,462e+18'
+            
+            elif option_drop_down_2 == 'BTU':
+                if option_drop_down_3 == 'Joule':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 1055'
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 1,055'
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 252'
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 3,966'
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 3,412'
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 3412'
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 99976'
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 778'
+            
+            elif option_drop_down_2 == 'therm (US)':
+                if option_drop_down_3 == 'Joule':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 1,055e+8'
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 105480'
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 2,521e+7'
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 25210'
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    label_formula['text'] = 'Fórmula: para um resultaod aproximado, multiplique o valor de energia mecânica por 29300'
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 29,3'
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
+                
+                elif option_drop_down_3 == 'BTU':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 99976'
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 7,78e+7'
+            
+            elif option_drop_down_2 == 'Pé-libra força':
+                if option_drop_down_3 == 'Joule':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 1,356'
+
+                elif option_drop_down_3 == 'Quilojoule':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 738'
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 3,086'
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 3086'
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 2655'
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 2,655e+6'
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 8,462e+18'
+                
+                elif option_drop_down_3 == 'BTU':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 778'
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 7,78e+7'
 
         elif drop_down_1.get() == 'Frequência':
-            pass
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+            
+            elif option_drop_down_2 == 'Hertz':
+                if option_drop_down_3 == 'Quilo-hertz':
+                    label_formula['text'] = 'Fórmula: divida o valor de frequência por 1000'
+                
+                elif option_drop_down_3 == 'Mega-hertz':
+                    label_formula['text'] = 'Fórmula: divida o valor de frequência por 1e+6'
+                
+                elif option_drop_down_3 == 'Gigahertz':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de frequência por 1e+9'
+            
+            elif option_drop_down_2 == 'Quilo-hertz':
+                if option_drop_down_3 == 'Hertz':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1000'
+
+                elif option_drop_down_3 == 'Mega-hertz':
+                    label_formula['text'] = 'Fórmula: divida o valor de frequência por 1000'
+                
+                elif option_drop_down_3 == 'Gigahertz':
+                    label_formula['text'] = 'Fórmula: divida o valor de frequência por 1e+6'
+            
+            elif option_drop_down_2 == 'Mega-hertz':
+                if option_drop_down_3 == 'Hertz':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1e+6'
+                
+                elif option_drop_down_3 == 'Quilo-hertz':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1000'
+                
+                elif option_drop_down_3 == 'Gigahertz':
+                    label_formula['text'] = 'Fórmula: divida o valor de frequência por 1000'
+            
+            elif option_drop_down_2 == 'Gigahertz':
+                if option_drop_down_3 == 'Hertz':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1e+9'
+                
+                elif option_drop_down_3 == 'Quilo-hertz':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1e+6'
+                
+                elif option_drop_down_3 == 'Mega-hertz':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1000'
 
         elif drop_down_1.get() == 'Massa':
-            pass
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+            
+            elif option_drop_down_2 == 'Tonelada':
+                if option_drop_down_3 == 'Quilograma':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1000'
+                
+                elif option_drop_down_3 == 'Grama':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1e+6'
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1e+9'
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 1e+12'
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    label_formula['text'] = 'Fórmula: divida o valor de de massa por 1,016'
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 1,102'
+                
+                elif option_drop_down_3 == 'Stone':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 157'
+                
+                elif option_drop_down_3 == 'Libra':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 2205'
+                
+                elif option_drop_down_3 == 'Onça':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 35274'
+            
+            elif option_drop_down_2 == 'Quilograma':
+                if option_drop_down_3 == 'Tonelada':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1000'
+                
+                elif option_drop_down_3 == 'Grama':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1000'
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1e+6'
+                
+                elif option_drop_down_3 == 'Microggrama':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 1e+9'
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 1016'
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 907'
+                
+                elif option_drop_down_3 == 'Stone':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 6,35'
+                
+                elif option_drop_down_3 == 'Libra':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 2,205'
+                
+                elif option_drop_down_3 == 'Onça':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 35,274'
+                
+            elif option_drop_down_2 == 'Grama':
+                if option_drop_down_3 == 'Tonelada':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1e+6'
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1000'
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1000'
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1e+6'
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1,016e+6'
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 907185'
+                
+                elif option_drop_down_3 == 'Stone':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 6350'
+                
+                elif option_drop_down_3 == 'Libra':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 454'
+                
+                elif option_drop_down_3 == 'Onça':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 28,35'
+                
+            elif option_drop_down_2 == 'Miligrama':
+                if option_drop_down_3 == 'Tonelada':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1e+9'
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1e+6'
+                
+                elif option_drop_down_3 == 'Grama':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1000'
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1000'
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1,016e+9'
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 9,072e+8'
+                
+                elif option_drop_down_3 == 'Stone':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 6,35e+6'
+                
+                elif option_drop_down_3 == 'Libra':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 453592'
+                
+                elif option_drop_down_3 == 'Onça':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 28350'
+            
+            
 
         elif drop_down_1.get() == 'Pressão':
             pass
