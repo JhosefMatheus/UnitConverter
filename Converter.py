@@ -2002,7 +2002,48 @@ class Converter:
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 72913'
 
         elif drop_down_1.get() == 'Consumo de Combustível':
-            pass
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+            
+            elif option_drop_down_2 == 'Milha por galão americano':
+                if option_drop_down_3 == 'Milhas por galão imperial':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de comsumo de combustível por 1,201'
+                
+                elif option_drop_down_3 == 'Quilômetro por litro':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de consumo de combustível por 2,352'
+                
+                elif option_drop_down_3 == 'Litro por 100 quilômetros':
+                    label_formula['text'] = 'Fórmula: 235,215/(1 mpg EUA) = 235,215 L/100 km'
+            
+            elif option_drop_down_2 == 'Milhas por galão imperial':
+                if option_drop_down_3 == 'Milha por galão americano':
+                    label_formula['text'] = 'Fórmula: divida o valor de consumo de combustível por 1,201'
+                
+                elif option_drop_down_3 == 'Quilômetro por litro':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de consumo de combustível por 2,825'
+                
+                elif option_drop_down_3 == 'Litro por 100 quilômetros':
+                    label_formula['text'] = 'Fórmula: 282,481/(1 mpg imperial) = 282,481 L/100 km'
+            
+            elif option_drop_down_2 == 'Quilômetro por litro':
+                if option_drop_down_3 == 'Milha por galão americano':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de consumo de combustível por 2,352'
+                
+                elif option_drop_down_3 == 'Milhas por galão imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de consumo de combustível por 2,825'
+                
+                elif option_drop_down_3 == 'Litro por 100 quilômetros':
+                    label_formula['text'] = 'Fórmula: 100/(1 km/L) = 100 L/100 km'
+            
+            elif option_drop_down_2 == 'Litro por 100 quilômetros':
+                if option_drop_down_3 == 'Milha por galão americano':
+                    label_formula['text'] = 'Fórmula: 235,215/(1 L/100 km) = 235,215 mpg EUA'
+                
+                elif option_drop_down_3 == 'Milhas por galão imperial':
+                    label_formula['text'] = 'Fórmula: 282,481/(1 L/100 km) = 282,481 mpg imperial'
+                
+                elif option_drop_down_3 == 'Quilômetro por litro':
+                    label_formula['text'] = 'Fórmula: 100/(1 L/100 km) = 100 km/L'
 
         elif drop_down_1.get() == 'Energia Mecãnica':
             pass
