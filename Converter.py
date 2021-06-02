@@ -1214,7 +1214,7 @@ class Converter:
 
             elif option_drop_down_2 == 'Megabyte' and option_drop_down_3 == 'Pebibyte':
                 label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1,126e+9'
-            
+
             elif option_drop_down_2 == 'MebiByte' and option_drop_down_3 == 'Bit':
                 label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de armazenamento de dados por 8,389e+6'
 
@@ -1277,7 +1277,7 @@ class Converter:
 
             elif option_drop_down_2 == 'MebiByte' and option_drop_down_3 == 'Pebibyte':
                 label_formula['text'] = 'Fórmula: para um reusltado aproximado, divida o valor de armazenamento de dados por 1,074e+9'
-            
+
             elif option_drop_down_2 == 'Gigabyte' and option_drop_down_3 == 'Bit':
                 label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 8e+9'
 
@@ -1340,7 +1340,7 @@ class Converter:
 
             elif option_drop_down_2 == 'Gigabyte' and option_drop_down_3 == 'Pebibyte':
                 label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1,126e+6'
-            
+
             elif option_drop_down_2 == 'Gibibyte' and option_drop_down_3 == 'Bit':
                 label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 8,59e+9'
 
@@ -1403,7 +1403,7 @@ class Converter:
 
             elif option_drop_down_2 == 'Gibibyte' and option_drop_down_3 == 'Pebibyte':
                 label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento de dados por 1,049e+6'
-            
+
             elif option_drop_down_2 == 'Terabyte' and option_drop_down_3 == 'Bit':
                 label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 8e+12'
 
@@ -1466,7 +1466,7 @@ class Converter:
 
             elif option_drop_down_2 == 'Terabyte' and option_drop_down_3 == 'Pebibyte':
                 label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de armazenamento de dados por 1126'
-            
+
             elif option_drop_down_2 == 'Tebibyte' and option_drop_down_3 == 'Bit':
                 label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 8,796e+12'
 
@@ -1529,7 +1529,7 @@ class Converter:
 
             elif option_drop_down_2 == 'Tebibyte' and option_drop_down_3 == 'Pebibyte':
                 label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1024'
-            
+
             elif option_drop_down_2 == 'Petabyte' and option_drop_down_3 == 'Bit':
                 label_formula['text'] = 'Fórmula: multiplique o valor de armazenamento de dados por 8e+15'
 
@@ -1592,7 +1592,7 @@ class Converter:
 
             elif option_drop_down_2 == 'Petabyte' and option_drop_down_3 == 'Pebibyte':
                 label_formula['text'] = 'Fórmula: divida o valor de armazenamento de dados por 1,126'
-            
+
             elif option_drop_down_2 == 'Pebibyte' and option_drop_down_3 == 'Bit':
                 label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de armazenamento de dados por 9,007e+15'
 
@@ -1659,846 +1659,1287 @@ class Converter:
         elif drop_down_1.get() == 'Comprimento':
             if option_drop_down_2 == option_drop_down_3:
                 label_formula['text'] = 'Fórmula desnecessária'
-            
+
             elif option_drop_down_2 == 'Quilômetro':
                 if option_drop_down_3 == 'Metro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1000'
-                
+
                 elif option_drop_down_3 == 'Centímetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 100000'
-                
+
                 elif option_drop_down_3 == 'Milímetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Micrômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1e+9'
-                
+
                 elif option_drop_down_3 == 'Nanômetro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 1e+12'
 
                 elif option_drop_down_3 == 'Milha':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 1,609'
-                
+
                 elif option_drop_down_3 == 'Jarda':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 1094'
 
                 elif option_drop_down_3 == 'Pé':
                     label_formula['text'] = 'Fórmula: para um reusltado aproximado, multiplique o valor de comprimento por 3281'
-                
+
                 elif option_drop_down_3 == 'Polegada':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 39370'
-                
+
                 elif option_drop_down_3 == 'Milha náutica':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1,852'
-            
+
             elif option_drop_down_2 == 'Metro':
                 if option_drop_down_3 == 'Quilômetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1000'
-                
+
                 elif option_drop_down_3 == 'Centímetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comrprimento por 100'
-                
+
                 elif option_drop_down_3 == 'Milímetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1000'
-                
+
                 elif option_drop_down_3 == 'Micrômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comrpimento por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Nanômetro':
                     label_formula['text'] = 'Fórmula: para um reusltado aproximado, multiplique o valor de comprimento por 1e+9'
-                
+
                 elif option_drop_down_3 == 'Milha':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 1609'
-                
+
                 elif option_drop_down_3 == 'Jarda':
                     label_formula['text'] = 'Fórmula: para um reusltado aproximado, multiplique o valor de comprimento por 1,094'
-                
+
                 elif option_drop_down_3 == 'Pé':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 3,281'
-                
+
                 elif option_drop_down_3 == 'Polegada':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 39,37'
-                
+
                 elif option_drop_down_3 == 'Milha náutica':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1852'
-            
+
             elif option_drop_down_2 == 'Centímetro':
                 if option_drop_down_3 == 'Quilômetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 100000'
-                
+
                 elif option_drop_down_3 == 'Metro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 100'
-                
+
                 elif option_drop_down_3 == 'Milímetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 10'
-                
+
                 elif option_drop_down_3 == 'Micrômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 10000'
-                
+
                 elif option_drop_down_3 == 'Nanômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1e+7'
-                
+
                 elif option_drop_down_3 == 'Milha':
                     label_formula['text'] = 'Fórmula: pra um resultado aproximado, divida o valor de comprimento por 160394'
-                
+
                 elif option_drop_down_3 == 'Jarda':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 91,44'
-                
+
                 elif option_drop_down_3 == 'Pé':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 30,48'
-                
+
                 elif option_drop_down_3 == 'Polegada':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 2,54'
-                
+
                 elif option_drop_down_3 == 'Milha náutica':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 185200'
-            
+
             elif option_drop_down_2 == 'Milímetro':
                 if option_drop_down_3 == 'Quilômetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comrpimento por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Metro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1000'
-                
+
                 elif option_drop_down_3 == 'Centímetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 10'
-                
+
                 elif option_drop_down_3 == 'Micrômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1000'
-                
+
                 elif option_drop_down_3 == 'Nanômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Milha':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 1,609e+6'
-                
+
                 elif option_drop_down_3 == 'Jarda':
                     label_formula['text'] = 'Fórmula: para um reusltado aproximado, divida o valor de comprimento por 914'
-                
+
                 elif option_drop_down_3 == 'Pé':
                     label_formula['text'] = 'Fórmula: para um reusltado aproximado, divida o valor de comprimento por 305'
-                
+
                 elif option_drop_down_3 == 'Polegada':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 25,4'
-                
+
                 elif option_drop_down_3 == 'Milha náutica':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1,852e+6'
-                
+
             elif option_drop_down_2 == 'Micrômetro':
                 if option_drop_down_3 == 'Quilômetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1e+9'
-                
+
                 elif option_drop_down_3 == 'Metro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Centímetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento 10000'
-                
+
                 elif option_drop_down_3 == 'Milímetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento 1000'
-                
+
                 elif option_drop_down_3 == 'Nanômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1000'
-                
+
                 elif option_drop_down_3 == 'Milha':
                     label_formula['text'] = 'Fórmula: para um reusltado aproximado, divida o valor de comprimento por 1,609e+9'
-                
+
                 elif option_drop_down_3 == 'Jarda':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 914400'
-                
+
                 elif option_drop_down_3 == 'Pé':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 304800'
-                
+
                 elif option_drop_down_3 == 'Polegada':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 25400'
-                
+
                 elif option_drop_down_3 == 'Milha náutica':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1,852e+9'
-            
+
             elif option_drop_down_2 == 'Nanômetro':
                 if option_drop_down_3 == 'Quilômetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1e+12'
-                
+
                 elif option_drop_down_3 == 'Metro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor comprimento por 1e+9'
-                
+
                 elif option_drop_down_3 == 'Centímetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1e+7'
-                
+
                 elif option_drop_down_3 == 'Milímetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Micrômetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1000'
-                
+
                 elif option_drop_down_3 == 'Milha':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 1,609e+12'
-                
+
                 elif option_drop_down_3 == 'Jarda':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 9,144e+8'
-                
+
                 elif option_drop_down_3 == 'Pé':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 3,048e+8'
-                
+
                 elif option_drop_down_3 == 'Polegada':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 2,54e+7'
-                
+
                 elif option_drop_down_3 == 'Milha náutica':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1,852e+12'
-            
+
             elif option_drop_down_2 == 'Milha':
                 if option_drop_down_3 == 'Quilômetro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 1,609'
-                
+
                 elif option_drop_down_3 == 'Metro':
                     label_formula['text'] = 'Fórmula: para um reusltado aproximado, multiplique o valor de comprimento por 1609'
-                
+
                 elif option_drop_down_3 == 'Centímetro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 160934'
-                
+
                 elif option_drop_down_3 == 'Milímetro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 1,609e+6'
-                
+
                 elif option_drop_down_3 == 'Micrômetro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 1,609e+9'
-                
+
                 elif option_drop_down_3 == 'Nanômetro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 1,609e+12'
-                
+
                 elif option_drop_down_3 == 'Jarda':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1760'
-                
+
                 elif option_drop_down_3 == 'Pé':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 5280'
-                
+
                 elif option_drop_down_3 == 'Polegada':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 63360'
-                
+
                 elif option_drop_down_3 == 'Milha náutica':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 1,151'
-            
+
             elif option_drop_down_2 == 'Jarda':
                 if option_drop_down_3 == 'Quilômetro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 1094'
-                
+
                 elif option_drop_down_3 == 'Metro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 1,094'
-                
+
                 elif option_drop_down_3 == 'Centímetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 91,44'
-                
+
                 elif option_drop_down_3 == 'Milímetro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 914'
-                
+
                 elif option_drop_down_3 == 'Micrômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 914400'
-                
+
                 elif option_drop_down_3 == 'Nanômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 9,144e+8'
-                
+
                 elif option_drop_down_3 == 'Milha':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 1760'
 
                 elif option_drop_down_3 == 'Pé':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 3'
-                
+
                 elif option_drop_down_3 == 'Polegada':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 36'
 
                 elif option_drop_down_3 == 'Milha náutica':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 2025'
-            
+
             elif option_drop_down_2 == 'Pé':
                 if option_drop_down_3 == 'Quilômetro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 3281'
-                
+
                 elif option_drop_down_3 == 'Metro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 3,281'
-                
+
                 elif option_drop_down_3 == 'Centímetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 30,48'
-                
+
                 elif option_drop_down_3 == 'Milímetro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 305'
-                
+
                 elif option_drop_down_3 == 'Micrômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 304800'
-                
+
                 elif option_drop_down_3 == 'Nanômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 3,048e+8'
-                
+
                 elif option_drop_down_3 == 'Milha':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 5280'
-                
+
                 elif option_drop_down_3 == 'Jarda':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 3'
-                
+
                 elif option_drop_down_3 == 'Polegada':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 12'
-                
+
                 elif option_drop_down_3 == 'Milha naútica':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 6076'
-            
+
             elif option_drop_down_2 == 'Polegada':
                 if option_drop_down_3 == 'Quilômetro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 39370'
-                
+
                 elif option_drop_down_3 == 'Metro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 39,37'
-                
+
                 elif option_drop_down_3 == 'Centímetro':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 2,54'
-                
+
                 elif option_drop_down_3 == 'Milímetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 25,4'
-                
+
                 elif option_drop_down_3 == 'Micrômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 25400'
-                
+
                 elif option_drop_down_3 == 'Nanômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 2,54e+7'
-                
+
                 elif option_drop_down_3 == 'Milha':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 63360'
-                
+
                 elif option_drop_down_3 == 'Jarda':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 36'
-                
+
                 elif option_drop_down_3 == 'Pé':
                     label_formula['text'] = 'Fórmula: divida o valor de comprimento por 12'
-                
+
                 elif option_drop_down_3 == 'Milha náutica':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de comprimento por 72913'
-            
+
             elif option_drop_down_2 == 'Milha náutica':
                 if option_drop_down_3 == 'Quilômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1,852'
-                
+
                 elif option_drop_down_3 == 'Metro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1852'
-                
+
                 elif option_drop_down_3 == 'Centímetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 185200'
-                
+
                 elif option_drop_down_3 == 'Milímetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1,852e+6'
-                
+
                 elif option_drop_down_3 == 'Micrômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1,852e+9'
-                
+
                 elif option_drop_down_3 == 'Nanômetro':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comprimento por 1,852e+12'
-                
+
                 elif option_drop_down_3 == 'Milha':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 1,151'
-                
+
                 elif option_drop_down_3 == 'Jarda':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 2025'
-                
+
                 elif option_drop_down_3 == 'Pé':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 6076'
-                
+
                 elif option_drop_down_3 == 'Polegada':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de comprimento por 72913'
 
         elif drop_down_1.get() == 'Consumo de Combustível':
             if option_drop_down_2 == option_drop_down_3:
                 label_formula['text'] = 'Fórmula desnecessária'
-            
+
             elif option_drop_down_2 == 'Milha por galão americano':
                 if option_drop_down_3 == 'Milhas por galão imperial':
                     label_formula['text'] = 'Fórmula: multiplique o valor de comsumo de combustível por 1,201'
-                
+
                 elif option_drop_down_3 == 'Quilômetro por litro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de consumo de combustível por 2,352'
-                
+
                 elif option_drop_down_3 == 'Litro por 100 quilômetros':
                     label_formula['text'] = 'Fórmula: 235,215/(1 mpg EUA) = 235,215 L/100 km'
-            
+
             elif option_drop_down_2 == 'Milhas por galão imperial':
                 if option_drop_down_3 == 'Milha por galão americano':
                     label_formula['text'] = 'Fórmula: divida o valor de consumo de combustível por 1,201'
-                
+
                 elif option_drop_down_3 == 'Quilômetro por litro':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de consumo de combustível por 2,825'
-                
+
                 elif option_drop_down_3 == 'Litro por 100 quilômetros':
                     label_formula['text'] = 'Fórmula: 282,481/(1 mpg imperial) = 282,481 L/100 km'
-            
+
             elif option_drop_down_2 == 'Quilômetro por litro':
                 if option_drop_down_3 == 'Milha por galão americano':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de consumo de combustível por 2,352'
-                
+
                 elif option_drop_down_3 == 'Milhas por galão imperial':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de consumo de combustível por 2,825'
-                
+
                 elif option_drop_down_3 == 'Litro por 100 quilômetros':
                     label_formula['text'] = 'Fórmula: 100/(1 km/L) = 100 L/100 km'
-            
+
             elif option_drop_down_2 == 'Litro por 100 quilômetros':
                 if option_drop_down_3 == 'Milha por galão americano':
                     label_formula['text'] = 'Fórmula: 235,215/(1 L/100 km) = 235,215 mpg EUA'
-                
+
                 elif option_drop_down_3 == 'Milhas por galão imperial':
                     label_formula['text'] = 'Fórmula: 282,481/(1 L/100 km) = 282,481 mpg imperial'
-                
+
                 elif option_drop_down_3 == 'Quilômetro por litro':
                     label_formula['text'] = 'Fórmula: 100/(1 L/100 km) = 100 km/L'
 
         elif drop_down_1.get() == 'Energia Mecânica':
             if option_drop_down_2 == option_drop_down_3:
                 label_formula['text'] = 'Fórmula desnecessária'
-            
+
             elif option_drop_down_2 == 'Joule':
                 if option_drop_down_3 == 'Quilojoule':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 1000'
-                
+
                 elif option_drop_down_3 == 'Gram calorie':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 4,184'
-                
+
                 elif option_drop_down_3 == 'Quilocaloria':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 4184'
-                
+
                 elif option_drop_down_3 == 'Watt-hora':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 3600'
-                
+
                 elif option_drop_down_3 == 'Quilowatt-hora':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 3,6e+6'
-                
+
                 elif option_drop_down_3 == 'Elétron-volt':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 6,242e+18'
-                
+
                 elif option_drop_down_3 == 'BTU':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 1055'
-                
+
                 elif option_drop_down_3 == 'therm (US)':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 1,055e+8'
-                
+
                 elif option_drop_down_3 == 'Pé-libra força':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 1,356'
-                
+
             elif option_drop_down_2 == 'Quilojoule':
                 if option_drop_down_3 == 'Joule':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 1000'
-                
+
                 elif option_drop_down_3 == 'Gram calorie':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 239'
-                
+
                 elif option_drop_down_3 == 'Quilocaloria':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 4,184'
-                
+
                 elif option_drop_down_3 == 'Watt-hora':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 3,6'
-                
+
                 elif option_drop_down_3 == 'Quilowatt-hora':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 3600'
-                
+
                 elif option_drop_down_3 == 'Elétron-volt':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'BTU':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 1,055'
-                
+
                 elif option_drop_down_3 == 'therm (US)':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 105480'
-                
+
                 elif option_drop_down_3 == 'Pé-libra força':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 738'
-            
+
             elif option_drop_down_2 == 'Gram calorie':
                 if option_drop_down_3 == 'Joule':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 4,184'
-                
+
                 elif option_drop_down_3 == 'Quilojoule':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 239'
-                
+
                 elif option_drop_down_3 == 'Quilocaloria':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 1000'
-                
+
                 elif option_drop_down_3 == 'Watt-hora':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 860'
-                
+
                 elif option_drop_down_3 == 'Quilowatt-hora':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 860421'
-                
+
                 elif option_drop_down_3 == 'Elétron-volt':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'BTU':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 252'
-                
+
                 elif option_drop_down_3 == 'therm (US)':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 2,512e+7'
-                
+
                 elif option_drop_down_3 == 'Pé-libra força':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 3,086'
-                
+
             elif option_drop_down_2 == 'Quilocaloria':
                 if option_drop_down_3 == 'Joule':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 4184'
-                
+
                 elif option_drop_down_3 == 'Quilojoule':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 4,184'
-                
+
                 elif option_drop_down_3 == 'Gram calorie':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 1000'
-                
+
                 elif option_drop_down_3 == 'Watt-hora':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 1,162'
-                
+
                 elif option_drop_down_3 == 'Quilowatt-hora':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 860'
-                
+
                 elif option_drop_down_3 == 'Elétron-volt':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'BTU':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 3,966'
-                
+
                 elif option_drop_down_3 == 'therm (US)':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecãnica por 25210'
-                
+
                 elif option_drop_down_3 == 'Pé-libra força':
                     label_formula['text'] = 'Fórmula: para um reusltado aproximado, multiplique o valor de energia mecânica por 3086'
-                
+
             elif option_drop_down_2 == 'Watt-hora':
                 if option_drop_down_3 == 'Joule':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 3600'
-                
+
                 elif option_drop_down_3 == 'Quilojoule':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 3,6'
-                
+
                 elif option_drop_down_3 == 'Gram calorie':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 860'
-                
+
                 elif option_drop_down_3 == 'Quilocaloria':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 1,162'
-                
+
                 elif option_drop_down_3 == 'Quilowatt-hora':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 1000'
-                
+
                 elif option_drop_down_3 == 'Elétron-volt':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'BTU':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 3,412'
-                
+
                 elif option_drop_down_3 == 'therm (US)':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 29300'
-                
+
                 elif option_drop_down_3 == 'Pé-libra força':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 2655'
-                
+
             elif option_drop_down_2 == 'Quilowatt-hora':
                 if option_drop_down_3 == 'Joule':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 3,6e+6'
-                
+
                 elif option_drop_down_3 == 'Quilojoule':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 3600'
-                
+
                 elif option_drop_down_3 == 'Gram calorie':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 860421'
-                
+
                 elif option_drop_down_3 == 'Quilocaloria':
                     label_formula['text'] = 'Fórmula: para um reusltado aproximado, multiplique o vaor de energia mecânica por 860'
-                
+
                 elif option_drop_down_3 == 'Watt-hora':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 1000'
-                
+
                 elif option_drop_down_3 == 'Elétron-volt':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'BTU':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 3412'
-                
+
                 elif option_drop_down_3 == 'therm (US)':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 29,3'
-                
+
                 elif option_drop_down_3 == 'Pé-libra força':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 2,655e+6'
-                
+
             elif option_drop_down_2 == 'Elétron-volt':
                 if option_drop_down_3 == 'Joule':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 6,242e+18'
-                
+
                 elif option_drop_down_3 == 'Quilojoule':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'Gram calorie':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'Quilocaloria':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'Watt-hora':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'Quilowatt-hora':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'BTU':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'therm (US)':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 9,223e+18'
-                    
+
                 elif option_drop_down_3 == 'Pé-libra força':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 8,462e+18'
-            
+
             elif option_drop_down_2 == 'BTU':
                 if option_drop_down_3 == 'Joule':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 1055'
-                
+
                 elif option_drop_down_3 == 'Quilojoule':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 1,055'
-                
+
                 elif option_drop_down_3 == 'Gram calorie':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 252'
-                
+
                 elif option_drop_down_3 == 'Quilocaloria':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 3,966'
-                
+
                 elif option_drop_down_3 == 'Watt-hora':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 3,412'
-                
+
                 elif option_drop_down_3 == 'Quilowatt-hora':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 3412'
-                
+
                 elif option_drop_down_3 == 'Elétron-volt':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'therm (US)':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 99976'
-                
+
                 elif option_drop_down_3 == 'Pé-libra força':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 778'
-            
+
             elif option_drop_down_2 == 'therm (US)':
                 if option_drop_down_3 == 'Joule':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 1,055e+8'
-                
+
                 elif option_drop_down_3 == 'Quilojoule':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 105480'
-                
+
                 elif option_drop_down_3 == 'Gram calorie':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 2,521e+7'
-                
+
                 elif option_drop_down_3 == 'Quilocaloria':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 25210'
-                
+
                 elif option_drop_down_3 == 'Watt-hora':
                     label_formula['text'] = 'Fórmula: para um resultaod aproximado, multiplique o valor de energia mecânica por 29300'
-                
+
                 elif option_drop_down_3 == 'Quilowatt-hora':
                     label_formula['text'] = 'Fórmula: multiplique o valor de energia mecânica por 29,3'
-                
+
                 elif option_drop_down_3 == 'Elétron-volt':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 9,223e+18'
-                
+
                 elif option_drop_down_3 == 'BTU':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 99976'
-                
+
                 elif option_drop_down_3 == 'Pé-libra força':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 7,78e+7'
-            
+
             elif option_drop_down_2 == 'Pé-libra força':
                 if option_drop_down_3 == 'Joule':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 1,356'
 
                 elif option_drop_down_3 == 'Quilojoule':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 738'
-                
+
                 elif option_drop_down_3 == 'Gram calorie':
                     label_formula['text'] = 'Fórmula: divida o valor de energia mecânica por 3,086'
-                
+
                 elif option_drop_down_3 == 'Quilocaloria':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 3086'
-                
+
                 elif option_drop_down_3 == 'Watt-hora':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 2655'
-                
+
                 elif option_drop_down_3 == 'Quilowatt-hora':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 2,655e+6'
-                
+
                 elif option_drop_down_3 == 'Elétron-volt':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de energia mecânica por 8,462e+18'
-                
+
                 elif option_drop_down_3 == 'BTU':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 778'
-                
+
                 elif option_drop_down_3 == 'therm (US)':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de energia mecânica por 7,78e+7'
 
         elif drop_down_1.get() == 'Frequência':
             if option_drop_down_2 == option_drop_down_3:
                 label_formula['text'] = 'Fórmula desnecessária'
-            
+
             elif option_drop_down_2 == 'Hertz':
                 if option_drop_down_3 == 'Quilo-hertz':
                     label_formula['text'] = 'Fórmula: divida o valor de frequência por 1000'
-                
+
                 elif option_drop_down_3 == 'Mega-hertz':
                     label_formula['text'] = 'Fórmula: divida o valor de frequência por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Gigahertz':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de frequência por 1e+9'
-            
+
             elif option_drop_down_2 == 'Quilo-hertz':
                 if option_drop_down_3 == 'Hertz':
                     label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1000'
 
                 elif option_drop_down_3 == 'Mega-hertz':
                     label_formula['text'] = 'Fórmula: divida o valor de frequência por 1000'
-                
+
                 elif option_drop_down_3 == 'Gigahertz':
                     label_formula['text'] = 'Fórmula: divida o valor de frequência por 1e+6'
-            
+
             elif option_drop_down_2 == 'Mega-hertz':
                 if option_drop_down_3 == 'Hertz':
                     label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Quilo-hertz':
                     label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1000'
-                
+
                 elif option_drop_down_3 == 'Gigahertz':
                     label_formula['text'] = 'Fórmula: divida o valor de frequência por 1000'
-            
+
             elif option_drop_down_2 == 'Gigahertz':
                 if option_drop_down_3 == 'Hertz':
                     label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1e+9'
-                
+
                 elif option_drop_down_3 == 'Quilo-hertz':
                     label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Mega-hertz':
                     label_formula['text'] = 'Fórmula: multiplique o valor de frequência por 1000'
 
         elif drop_down_1.get() == 'Massa':
             if option_drop_down_2 == option_drop_down_3:
                 label_formula['text'] = 'Fórmula desnecessária'
-            
+
             elif option_drop_down_2 == 'Tonelada':
                 if option_drop_down_3 == 'Quilograma':
                     label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1000'
-                
+
                 elif option_drop_down_3 == 'Grama':
                     label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Miligrama':
                     label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1e+9'
-                
+
                 elif option_drop_down_3 == 'Micrograma':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 1e+12'
-                
+
                 elif option_drop_down_3 == 'Tonelada de deslocamento':
                     label_formula['text'] = 'Fórmula: divida o valor de de massa por 1,016'
-                
+
                 elif option_drop_down_3 == 'Tonelada curta':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 1,102'
-                
+
                 elif option_drop_down_3 == 'Stone':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 157'
-                
+
                 elif option_drop_down_3 == 'Libra':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 2205'
-                
+
                 elif option_drop_down_3 == 'Onça':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 35274'
-            
+
             elif option_drop_down_2 == 'Quilograma':
                 if option_drop_down_3 == 'Tonelada':
                     label_formula['text'] = 'Fórmula: divida o valor de massa por 1000'
-                
+
                 elif option_drop_down_3 == 'Grama':
                     label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1000'
-                
+
                 elif option_drop_down_3 == 'Miligrama':
                     label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Microggrama':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 1e+9'
-                
+
                 elif option_drop_down_3 == 'Tonelada de deslocamento':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 1016'
-                
+
                 elif option_drop_down_3 == 'Tonelada curta':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 907'
-                
+
                 elif option_drop_down_3 == 'Stone':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 6,35'
-                
+
                 elif option_drop_down_3 == 'Libra':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 2,205'
-                
+
                 elif option_drop_down_3 == 'Onça':
                     label_formula['text'] = 'Fórmula: multiplique o valor de massa por 35,274'
-                
+
             elif option_drop_down_2 == 'Grama':
                 if option_drop_down_3 == 'Tonelada':
                     label_formula['text'] = 'Fórmula: divida o valor de massa por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Quilograma':
                     label_formula['text'] = 'Fórmula: divida o valor de massa por 1000'
-                
+
                 elif option_drop_down_3 == 'Miligrama':
                     label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1000'
-                
+
                 elif option_drop_down_3 == 'Micrograma':
                     label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Tonelada de deslocamento':
                     label_formula['text'] = 'Fórmula: divida o valor de massa por 1,016e+6'
-                
+
                 elif option_drop_down_3 == 'Tonelada curta':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 907185'
-                
+
                 elif option_drop_down_3 == 'Stone':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 6350'
-                
+
                 elif option_drop_down_3 == 'Libra':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 454'
-                
+
                 elif option_drop_down_3 == 'Onça':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 28,35'
-                
+
             elif option_drop_down_2 == 'Miligrama':
                 if option_drop_down_3 == 'Tonelada':
                     label_formula['text'] = 'Fórmula: divida o valor de massa por 1e+9'
-                
+
                 elif option_drop_down_3 == 'Quilograma':
                     label_formula['text'] = 'Fórmula: divida o valor de massa por 1e+6'
-                
+
                 elif option_drop_down_3 == 'Grama':
                     label_formula['text'] = 'Fórmula: divida o valor de massa por 1000'
-                
+
                 elif option_drop_down_3 == 'Micrograma':
                     label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1000'
-                
+
                 elif option_drop_down_3 == 'Tonelada de deslocamento':
                     label_formula['text'] = 'Fórmula: divida o valor de massa por 1,016e+9'
-                
+
                 elif option_drop_down_3 == 'Tonelada curta':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 9,072e+8'
-                
+
                 elif option_drop_down_3 == 'Stone':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 6,35e+6'
-                
+
                 elif option_drop_down_3 == 'Libra':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 453592'
-                
+
                 elif option_drop_down_3 == 'Onça':
                     label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 28350'
+
+            elif option_drop_down_2 == 'Micrograma':
+                if option_drop_down_3 == 'Tonelada':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1e+12'
+
+                elif option_drop_down_3 == 'Quilograma':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 1e+9'
+
+                elif option_drop_down_3 == 'Grama':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1e+6'
+
+                elif option_drop_down_3 == 'Miligrama':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1000'
+
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1,016+12'
+
+                elif option_drop_down_3 == 'Tonelada curta':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 9,072e+11'
+
+                elif option_drop_down_3 == 'Stone':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 6,35e+9'
+
+                elif option_drop_down_3 == 'Libra':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 4,536e+8'
+
+                elif option_drop_down_3 == 'Onça':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 2,835e+7'
+
+            elif option_drop_down_2 == 'Tonelada de deslocamento':
+                if option_drop_down_3 == 'Tonelada':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1,016'
+
+                elif option_drop_down_3 == 'Quilograma':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 1016'
+
+                elif option_drop_down_3 == 'Grama':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1,016e+6'
+
+                elif option_drop_down_3 == 'Miligrama':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1,016e+9'
+
+                elif option_drop_down_3 == 'Micrograma':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1,016e+12'
+
+                elif option_drop_down_3 == 'Tonelada curta':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 1,12'
+
+                elif option_drop_down_3 == 'Stone':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 160'
+
+                elif option_drop_down_3 == 'Libra':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 2240'
+
+                elif option_drop_down_3 == 'Onça':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 35840'
             
+            elif option_drop_down_2 == 'Tonelada curta':
+                if option_drop_down_3 == 'Tonelada':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 1,102'
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 907'
+                
+                elif option_drop_down_3 == 'Grama':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 907185'
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 9,072e+8'
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 9,072e+11'
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 1,12'
+                
+                elif option_drop_down_3 == 'Stone':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 143'
+                
+                elif option_drop_down_3 == 'Libra':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 2000'
+                
+                elif option_drop_down_3 == 'Onça':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 32000'
             
+            elif option_drop_down_2 == 'Stone':
+                if option_drop_down_3 == 'Tonelada':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 157'
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 6,35'
+                
+                elif option_drop_down_3 == 'Grama':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 6350'
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 6,35e+6'
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 6,35e+9'
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 160'
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 143'
+                
+                elif option_drop_down_3 == 'Libra':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 14'
+                
+                elif option_drop_down_3 == 'Onça':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 224'
+            
+            elif option_drop_down_2 == 'Libra':
+                if option_drop_down_3 == 'Tonelada':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 2205'
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 2,205'
+                
+                elif option_drop_down_3 == 'Grama':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 454'
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 453592'
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 4,536e+8'
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 2240'
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 2000'
+                
+                elif option_drop_down_3 == 'Stone':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 14'
+                
+                elif option_drop_down_3 == 'Onça':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 16'
+            
+            elif option_drop_down_2 == 'Onça':
+                if option_drop_down_3 == 'Tonelada':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de massa por 35274'
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 35,274'
+                
+                elif option_drop_down_3 == 'Grama':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 28,35'
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de massa por 28350'
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de massa por 2,835e+7'
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 35840'
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 32000'
+                
+                elif option_drop_down_3 == 'Stone':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 224'
+                
+                elif option_drop_down_3 == 'Libra':
+                    label_formula['text'] = 'Fórmula: divida o valor de massa por 16'
 
         elif drop_down_1.get() == 'Pressão':
-            pass
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+            
+            elif option_drop_down_2 == 'Atmosfera padrão':
+                if option_drop_down_3 == 'Bar':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de pressão por 1,013'
+                
+                elif option_drop_down_3 == 'Pascal':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de pressão por 101325'
+                
+                elif option_drop_down_3 == 'Psi':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de pressão por 14,696'
+                
+                elif option_drop_down_3 == 'Torr':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de pressão por 760'
+                
+            elif option_drop_down_2 == 'Bar':
+                if option_drop_down_3 == 'Atmosfera padrão':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de pressão por 1,013'
+                
+                elif option_drop_down_3 == 'Pascal':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de pressão por 100000'
+                
+                elif option_drop_down_3 == 'Psi':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de pressão por 14,504'
+                
+                elif option_drop_down_3 == 'Torr':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de pressão por 750'
+            
+            elif option_drop_down_2 == 'Pascal':
+                if option_drop_down_3 == 'Atmosfera padrão':
+                    label_formula['text'] = 'Fórmula: divida o valor de pressão por 101325'
+                
+                elif option_drop_down_3 == 'Bar':
+                    label_formula['text'] = 'Fórmula: divida o valor de pressão por 100000'
+                
+                elif option_drop_down_3 == 'Psi':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de pressão por 6895'
+                
+                elif option_drop_down_3 == 'Torr':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de pressão por 133'
+                
+            elif option_drop_down_2 == 'Psi':
+                if option_drop_down_3 == 'Atmosfera padrão':
+                    label_formula['text'] = 'Fórmula: divida o valor de pressão por 14,696'
+                
+                elif option_drop_down_3 == 'Bar':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de pressão por 14,504'
+                
+                elif option_drop_down_3 == 'Pascal':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de pressão por 6895'
+                
+                elif option_drop_down_3 == 'Torr':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de pressão por 51,715'
+            
+            elif option_drop_down_2 == 'Torr':
+                if option_drop_down_3 == 'Atmosfera padrão':
+                    label_formula['text'] = 'Fórmula: divida o valor de pressão por 760'
+                
+                elif option_drop_down_3 == 'Bar':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de pressão por 750'
+                
+                elif option_drop_down_3 == 'Pascal':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de pressão por 133'
+                
+                elif option_drop_down_3 == 'Psi':
+                    label_formula['text'] = 'Fórmula: divida o valor de pressão por 51,715'
 
         elif drop_down_1.get() == 'Temperatura':
-            pass
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+            
+            elif option_drop_down_2 == 'Grau Celsius':
+                if option_drop_down_3 == 'Grau Fahrenheit':
+                    label_formula['text'] = 'Fórmula: (0 °C x 9/5) + 32 = 32 °F'
+                
+                elif option_drop_down_3 == 'Kelvin':
+                    label_formula['text'] = 'Fórmula: 0 °C + 273,15 = 273,15 K'
+            
+            elif option_drop_down_2 == 'Grau Fahrenheit':
+                if option_drop_down_3 == 'Grau Celsius':
+                    label_formula['text'] = 'Fórmula: (0 °F - 32) x 5/9 = -17,78 °C'
+                
+                elif option_drop_down_3 == 'Kelvin':
+                    label_formula['text'] = 'Fórmula: (0 °F - 32) x 5/9 + 273,15 = 255,372 K'
+                
+            elif option_drop_down_2 == 'Kelvin':
+                if option_drop_down_3 == 'Grau Celsius':
+                    label_formula['text'] = 'Fórmula: 0 K - 273,15 = -273,15 °C'
+                
+                elif option_drop_down_3 == 'Grau Fahrenheit':
+                    label_formula['text'] = 'Fórmula: (0 K - 273,15) x 9/5 + 32 = -459,7 °F'
 
         elif drop_down_1.get() == 'Tempo':
-            pass
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+            
+            elif option_drop_down_2 == 'Nanosegundo':
+                if option_drop_down_3 == 'Microssegundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempor por 1000'
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempor por 1e+6'
+                
+                elif option_drop_down_3 == 'Segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempor por 1e+9'
+                
+                elif option_drop_down_3 == 'Minuto':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempor por 6e+10'
+                
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 3,6e+12'
+                
+                elif option_drop_down_3 == 'Dia':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 8,64e+13'
+                
+                elif option_drop_down_3 == 'Semana':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 6,048e+14'
+                
+                elif option_drop_down_3 == 'Mês':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempor por 2,628e+15'
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+16'
+                
+                elif option_drop_down_3 == 'Década':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+17'
+                
+                elif option_drop_down_3 == 'Século':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+18'
+            
+            elif option_drop_down_2 == 'Microssegundo':
+                if option_drop_down_3 == 'Nanosegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 1000'
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 1000'
+                
+                elif option_drop_down_3 == 'Segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 1e+6'
+                
+                elif option_drop_down_3 == 'Minuto':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 6e+7'
+                
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 3,6e+9'
+                
+                elif option_drop_down_3 == 'Dia':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 8,64e+10'
+                
+                elif option_drop_down_3 == 'Semana':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 6,048e+11'
+                
+                elif option_drop_down_3 == 'Mês':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 2,628e+12'
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+13'
+                
+                elif option_drop_down_3 == 'Década':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+14'
+                
+                elif option_drop_down_3 == 'Século':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+15'
+            
+            elif option_drop_down_2 == 'Milissegundo':
+                if option_drop_down_3 == 'Nanosegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 1e+6'
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 1000'
+                
+                elif option_drop_down_3 == 'Segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 1000'
+                
+                elif option_drop_down_3 == 'Minuto':
+                    label_formula['text'] = 'Fórmula: divida o valor tempo por 60000'
+            
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 3,6e+6'
+                
+                elif option_drop_down_3 == 'Dia':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 8,64e+7'
+                
+                elif option_drop_down_3 == 'Semana':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 6,048e+8'
+                
+                elif option_drop_down_3 == 'Mês':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 2,628e+9'
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+10'
+                
+                elif option_drop_down_3 == 'Década':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+11'
+                
+                elif option_drop_down_3 == 'Século':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+12'
+            
+            elif option_drop_down_2 == 'Segundo':
+                if option_drop_down_3 == 'Nanosegundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 1e+9'
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 1e+6'
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 1000'
+                
+                elif option_drop_down_3 == 'Minuto':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 60'
+            
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 3600'
+                
+                elif option_drop_down_3 == 'Dia':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 86400'
+                
+                elif option_drop_down_3 == 'Semana':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 604800'
+                
+                elif option_drop_down_3 == 'Mês':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempor por 2,628e+6'
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+7'
+                
+                elif option_drop_down_3 == 'Década':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+8'
+                
+                elif option_drop_down_3 == 'Século':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 3,154e+9'
+            
+            elif option_drop_down_2 == 'Minuto':
+                if option_drop_down_3 == 'Nanosegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 6e+10'
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 6e+7'
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 60000'
+                
+                elif option_drop_down_3 == 'Segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 60'
+                
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 60'
+                
+                elif option_drop_down_3 == 'Dia':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 1440'
+                
+                elif option_drop_down_3 == 'Semana':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 10080'
+                
+                elif option_drop_down_3 == 'Mês':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 43800'
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 525600'
+                
+                elif option_drop_down_3 == 'Década':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 5,256e+6'
+                
+                elif option_drop_down_3 == 'Século':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 5,256e+7'
+                
+            elif option_drop_down_2 == 'Hora':
+                if option_drop_down_3 == 'Nanosegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 3,6e+12'
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 3,6e+9'
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 3,6e+6'
+                
+                elif option_drop_down_3 == 'Segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 3600'
+                
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por '
 
         elif drop_down_1.get() == 'Transmissão de dados':
             pass
