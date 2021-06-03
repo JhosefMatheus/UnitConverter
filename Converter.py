@@ -2939,7 +2939,229 @@ class Converter:
                     label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 3600'
                 
                 elif option_drop_down_3 == 'Hora':
-                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por '
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 60'
+                
+                elif option_drop_down_3 == 'Dia':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo 24'
+                
+                elif option_drop_down_3 == 'Semana':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo 168'
+                
+                elif option_drop_down_3 == 'Mês':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 730'
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 8760'
+                
+                elif option_drop_down_3 == 'Década':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 87600'
+                
+                elif option_drop_down_3 == 'Século':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 876000'
+                
+            elif option_drop_down_2 == 'Dia':
+                if option_drop_down_3 == 'Nanosegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 8,64e+13'
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 8,64e+10'
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 8,64e+7'
+                
+                elif option_drop_down_3 == 'Segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 86400'
+                
+                elif option_drop_down_3 == 'Minuto':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 1440'
+                
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 24'
+                
+                elif option_drop_down_3 == 'Semana':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 7'
+                
+                elif option_drop_down_3 == 'Mês':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 30,417'
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 365'
+                
+                elif option_drop_down_3 == 'Década':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 3650'
+                
+                elif option_drop_down_3 == 'Século':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 36500'
+                
+            elif option_drop_down_2 == 'Semana':
+                if option_drop_down_3 == 'Nanosegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 6,048e+14'
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 6,048e+11'
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 6,048e+8'
+                
+                elif option_drop_down_3 == 'Segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 604800'
+                
+                elif option_drop_down_3 == 'Minuto':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 10080'
+                
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 168'
+                
+                elif option_drop_down_3 == 'Dia':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 7'
+                
+                elif option_drop_down_3 == 'Mês':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 4,345'
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 52,143'
+                
+                elif option_drop_down_3 == 'Década':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 521'
+                
+                elif option_drop_down_3 == 'Século':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 5214'
+                
+            elif option_drop_down_2 == 'Mês':
+                if option_drop_down_3 == 'Nanosegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 2,628e+15'
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 2,628e+12'
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 2,628e+9'
+                
+                elif option_drop_down_3 == 'Segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 2,628e+6'
+                
+                elif option_drop_down_3 == 'Minuto':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de de tempo por 43800'
+                
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 730'
+                
+                elif option_drop_down_3 == 'Dia':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 30,417'
+                
+                elif option_drop_down_3 == 'Semana':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 4,345'
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 12'
+                
+                elif option_drop_down_3 == 'Década':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 120'
+                
+                elif option_drop_down_3 == 'Século':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de tempo por 1200'
+                
+            elif option_drop_down_2 == 'Ano-calendário':
+                if option_drop_down_3 == 'Nanosegundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+16'
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+13'
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+10'
+                
+                elif option_drop_down_3 == 'Segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+7'
+                
+                elif option_drop_down_3 == 'Minuto':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 525600'
+                
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 8760'
+                
+                elif option_drop_down_3 == 'Dia':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 365'
+                
+                elif option_drop_down_3 == 'Semana':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 52,143'
+                
+                elif option_drop_down_3 == 'Mês':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 12'
+                
+                elif option_drop_down_3 == 'Década':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 10'
+                
+                elif option_drop_down_3 == 'Século':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 100'
+                
+            elif option_drop_down_2 == 'Década':
+                if option_drop_down_3 == 'Nanosegundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+17'
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+14'
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+11'
+                
+                elif option_drop_down_3 == 'Segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+8'
+                
+                elif option_drop_down_3 == 'Minuto':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 5,256e+6'
+                
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 87600'
+                
+                elif option_drop_down_3 == 'Dia':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 3650'
+                
+                elif option_drop_down_3 == 'Semana':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 521'
+                
+                elif option_drop_down_3 == 'Mês':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 120'
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 10'
+                
+                elif option_drop_down_3 == 'Século':
+                    label_formula['text'] = 'Fórmula: divida o valor de tempo por 10'
+            
+            elif option_drop_down_2 == 'Século':
+                if option_drop_down_3 == 'Nanosegundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+18'
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+15'
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+12'
+                
+                elif option_drop_down_3 == 'Segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 3,154e+9'
+                
+                elif option_drop_down_3 == 'Minuto':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 5,256e+7'
+                
+                elif option_drop_down_3 == 'Hora':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 876000'
+                
+                elif option_drop_down_3 == 'Dia':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 36500'
+                
+                elif option_drop_down_3 == 'Semana':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 5214'
+                
+                elif option_drop_down_3 == 'Mês':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de tempo por 1200'
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 100'
+                
+                elif option_drop_down_3 == 'Década':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 10'
 
         elif drop_down_1.get() == 'Transmissão de dados':
             pass
