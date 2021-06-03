@@ -3164,7 +3164,489 @@ class Converter:
                     label_formula['text'] = 'Fórmula: multiplique o valor de tempo por 10'
 
         elif drop_down_1.get() == 'Transmissão de dados':
-            pass
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+            
+            elif option_drop_down_2 == 'Bit por segundo':
+                if option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8000'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1024'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1e+6'
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8e+6'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,049e+6'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1e+9'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8e+9'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,074e+9'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1e+12'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8e+12'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,1e+12'
+                
+            elif option_drop_down_2 == 'Quilobit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1,024'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8000'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1049'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1e+6'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8e+6'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,074e+6'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1e+9'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8e+9'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,1e+9'
+                
+            elif option_drop_down_2 == 'Quilobyte por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8000'
+
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 7,812'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 125'
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 131'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 125000'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1e+6'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um reusltado aproximado, divida o valor de transmissão de dados por 134218'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1,5e+8'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1e+9'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,347e+8'
+            
+            elif option_drop_down_2 == 'Kibibit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1024'
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1,024'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 7,812'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 977'
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 7813'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1024'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 976562'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 7,812e+6'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,049e+6'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 9,766e+8'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 7,812e+9'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,074e+9'
+                
+            elif option_drop_down_2 == 'Megabit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1e+6'
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 125'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 977'
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,049'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8000'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1074'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1e+6'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8e+6'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,1e+6'
+                
+            elif option_drop_down_2 == 'Megabyte por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8e+6'
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8000'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 7813'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fòrmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 7,629'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 125'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 134'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 125000'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1e+6'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 137439'
+                
+            elif option_drop_down_2 == 'Mebibit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,049e+6'
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1049'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 131'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1024'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,049'
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 7,629'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 954'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 7629'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1024'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 953674'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 7,629e+6'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,049e+6'
+                
+            elif option_drop_down_2 == 'Gigabit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1e+9'
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1e+6'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 125000'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 976563'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1000'
+
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 125'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 954'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,074'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmisssão de dados por 8000'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1100'
+            
+            elif option_drop_down_2 == 'Gigabyte por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8e+9'
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8e+6'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1e+6'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultaod aproximado, multiplique o valor de transmissão de dados por 7,812e+6'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8000'
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 7629'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 7,451'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 125'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 137'
+            
+            elif option_drop_down_2 == 'Gibibit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,074e+9'
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,074e+6'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 134218'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,049e+6'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1074'
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 134'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1024'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,074'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 7,451'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 931'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 7451'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 1024'
+                
+            elif option_drop_down_2 == 'Terabit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1e+12'
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1e+9'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1,25e+8'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 9,766e+8'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1e+6'
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 125000'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 953674'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 125'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 931'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 8'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de transmissão de dados por 1,1'
+            
+            elif option_drop_down_2  == 'Terabyte por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8e+12'
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8e+9'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1e+9'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 7,812e+9'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8e+6'
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1e+6'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 7,629e+6'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8000'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1000'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 7451'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 8'
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 7,276'
+            
+            elif option_drop_down_2 == 'Tebibit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,1e+12'
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,1e+9'
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,374e+8'
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,074e+9'
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,1e+6'
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 137439'
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,049e+6'
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1100'
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 137'
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de transmissão de dados por 1024'
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de transmissão de dados por 1,1'
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 7,276'
 
         elif drop_down_1.get() == 'Velocidade':
             pass
