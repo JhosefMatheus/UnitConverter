@@ -3649,10 +3649,187 @@ class Converter:
                     label_formula['text'] = 'Fórmula: divida o valor de transmissão de dados por 7,276'
 
         elif drop_down_1.get() == 'Velocidade':
-            pass
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+            
+            elif option_drop_down_2 == 'Milha por hora':
+                if option_drop_down_3 == 'Pés por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de velocidade por 1,467'
+                
+                elif option_drop_down_3 == 'Metro por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de velocidade por 2,237'
+                
+                elif option_drop_down_3 == 'Quilômetro por hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de velocidade por 1,609'
+                
+                elif option_drop_down_3 == 'Nó':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de velocidade por 1,151'
+                
+            elif option_drop_down_2 == 'Pés por segundo':
+                if option_drop_down_3 == 'Milha por hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de velocidade por 1,467'
+                
+                elif option_drop_down_3 == 'Metro por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de velocidade por 3,281'
+                
+                elif option_drop_down_3 == 'Quilômetro por hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de velocidade por 1,097'
+                
+                elif option_drop_down_3 == 'Nó':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de velocidade por 1,688'
+            
+            elif option_drop_down_2 == 'Metro por segundo':
+                if option_drop_down_3 == 'Milha por hora':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de velocidade por 2,237'
+                
+                elif option_drop_down_3 == 'Pés por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de velocidade por 3,281'
+                
+                elif option_drop_down_3 == 'Quilômetro por hora':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de velocidade por 3,6'
+                
+                elif option_drop_down_3 == 'Nó':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de velocidade por 1,944'
+            
+            elif option_drop_down_2 == 'Quilômetro por hora':
+                if option_drop_down_3 == 'Milha por hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de velocidade por 1,609'
+                
+                elif option_drop_down_3 == 'Pés por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de velocidade por 1,097'
+                
+                elif option_drop_down_3 == 'Metro por segundo':
+                    label_formula['text'] = 'Fórmula: divida o valor de velocidade por 3,6'
+                
+                elif option_drop_down_3 == 'Nó':
+                    label_formula['text'] = 'Fórmula: divida o valor de velocidade por 1,852'
+            
+            elif option_drop_down_2 == 'Nó':
+                if option_drop_down_3 == 'Milha por hora':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de velocidade por 1,151'
+                
+                elif option_drop_down_3 == 'Pés por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de velocidade por 1,688'
+                
+                elif option_drop_down_3 == 'Metro por segundo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de velocidade por 1,944'
+                
+                elif option_drop_down_3 == 'Quilômetro por hora':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de velocidade por 1,852'
 
         elif drop_down_1.get() == 'Volume':
-            pass
+            if option_drop_down_2 == option_drop_down_3:
+                label_formula['text'] = 'Fórmula desnecessária'
+            
+            elif option_drop_down_2 == 'Galão americano':
+                if option_drop_down_3 == 'Quarto líquido americano':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 4'
+
+                elif option_drop_down_3 == 'Pinta americana':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 8'
+                
+                elif option_drop_down_3 == 'Copo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 15,773'
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 128'
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 256'
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 768'
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 264'
+                
+                elif option_drop_down_3 == 'Litro':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 3,785'
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume po 3785'
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    label_formula['text'] = 'Fórmula: divida o valor de volume por 1,201'
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 3,331'
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 6,661'
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 13,323'
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 133'
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 213'
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 639'
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 7,481'
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 231'
+            
+            elif option_drop_down_2 == 'Quarto líquido americano':
+                if option_drop_down_3 == 'Galão americano':
+                    label_formula['text'] = 'Fórmula: divida o valor de volume por 4'
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 2'
+                
+                elif option_drop_down_3 == 'Copo':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 3,943'
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 32'
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 64'
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 192'
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 1057'
+                
+                elif option_drop_down_3 == 'Litro':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 1,057'
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 946'
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 4,804'
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    label_formula['text'] = 'Fórmula: divida o valor de volume por 1,201'
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 1,665'
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 3,331'
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 33,307'
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 53,291'
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 160'
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    label_formula['text'] = 'Fórmula: divida o valor de volume por 29,922'
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 57,75'
 
         elif drop_down_1.get() == 'Área':
             pass
