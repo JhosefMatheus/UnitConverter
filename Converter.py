@@ -3885,6 +3885,61 @@ class Converter:
                 
                 elif option_drop_down_3 == 'Polegada cúbica':
                     label_formula['text'] = 'Fórmula: multiplique o valor de volume por por 28,875'
+            
+            elif option_drop_down_2 == 'Copo':
+                if option_drop_down_3 == 'Galão americano':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 15,773'
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 3,943'
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 1,972'
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 8,115'
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 16,231'
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 48,692'
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 4167'
+                
+                elif option_drop_down_3 == 'Litro':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 4,167'
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 240'
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    label_formula['text'] = 'Fórmula: divida o valor de volume por 18,942'
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 4,736'
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 2,368'
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 1,184'
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 8,447'
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    label_formula['text'] = 'Fórmula: multiplique o valor de volume por 13,515'
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 40,545'
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, divida o valor de volume por 118'
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    label_formula['text'] = 'Fórmula: para um resultado aproximado, multiplique o valor de volume por 14,646'
 
         elif drop_down_1.get() == 'Área':
             pass
