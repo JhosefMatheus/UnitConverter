@@ -5204,3 +5204,299 @@ class Converter:
                         label['text'] = str(operation)
                     except Exception as e:
                         label['text'] = 'Erro'
+            
+            elif option_drop_down_2 == 'Kilobit':
+                if option_drop_down_3 == 'Bit':
+                    try:
+                        operation = int(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Kibibit':
+                    try:
+                        operation = int(entry_value)/1.024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Megabit':
+                    try:
+                        operation = int(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Mebibit':
+                    try:
+                        operation = int(entry_value)/1049
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Gigabit':
+                    try:
+                        operation = int(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Gibibit':
+                    try:
+                        operation = int(entry_value)/1.074*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Terabit':
+                    try:
+                        operation = int(entry_value)/10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Tebibit':
+                    try:
+                        operation = int(entry_value)/1.1*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Petabit':
+                    try:
+                        operation = int(entry_value)/10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Pebibit':
+                    try:
+                        operation = int(entry_value)/1.126*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Byte':
+                    try:
+                        operation = int(entry_value)*125
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Kilobyte':
+                    try:
+                        operation = int(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                    
+                elif option_drop_down_3 == 'Kibibyte':
+                    try:
+                        operation = int(entry_value)/8,192
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Megabyte':
+                    try:
+                        operation = int(entry_value)/8000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'MebiByte':
+                    try:
+                        operation = int(entry_value)/8389
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Gigabyte':
+                    try:
+                        operation = int(entry_value)/8*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Gibibyte':
+                    try:
+                        operation = int(entry_value)/8.59*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Terabyte':
+                    try:
+                        operation = int(entry_value)/8*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+
+                elif option_drop_down_3 == 'Tebibyte':
+                    try:
+                        operation = int(entry_value)/8.796*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Petabyte':
+                    try:
+                        operation = int(entry_value)/8*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                    
+                elif option_drop_down_3 == 'Pebibyte':
+                    try:
+                        operation = int(entry_value)/9.007*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+            
+            elif option_drop_down_2 == 'Kibibit':
+                if option_drop_down_3 == 'Bit':
+                    try:
+                        operation = int(entry_value)*1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Kilobit':
+                    try:
+                        operation = int(entry_value)*1.024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Megabit':
+                    try:
+                        operation = int(entry_value)/977
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Mebibit':
+                    try:
+                        operation = int(entry_value)/1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Gigabit':
+                    try:
+                        operation = int(entry_value)/976562
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Gibibit':
+                    try:
+                        operation = int(entry_value)/1.049*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Terabit':
+                    try:
+                        operation = int(entry_value)/9.766*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Tebibit':
+                    try:
+                        operation = int(entry_value)/1.074*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Petabit':
+                    try:
+                        operation = int(entry_value)/9.766*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Pebibit':
+                    try:
+                        operation = int(entry_value)/1.1*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Byte':
+                    try:
+                        operation = int(entry_value)*128
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Kilobyte':
+                    try:
+                        operation = int(entry_value)/7.812
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Kibibyte':
+                    try:
+                        operation = int(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Megabyte':
+                    try:
+                        operation = int(entry_value)/7813
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'MebiByte':
+                    try:
+                        operation = int(entry_value)/8192
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Gigabyte':
+                    try:
+                        operation = int(entry_value)/7.812*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Gibibyte':
+                    try:
+                        operation = int(entry_value)/8.389*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Terabyte':
+                    try:
+                        operation = int(entry_value)/7.812*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Tebibyte':
+                    try:
+                        operation = int(entry_value)/8.59*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Petabyte':
+                    try:
+                        operation = int(entry_value)/7.812*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
+                
+                elif option_drop_down_3 == 'Pebibyte':
+                    try:
+                        operation = int(entry_value)/8.796*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        label['text'] = 'Erro'
