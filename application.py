@@ -92,12 +92,18 @@ label_result = Label(
     width=17
 )
 
-label_equal = Label(
+button_equal = Button(
     window,
     text='=',
-    font='Arial 20',
     width=5,
-    bg='gray'
+    height=2,
+    command=lambda:converter.result(
+        drop_down_1,
+        drop_down_2,
+        drop_down_3,
+        entry,
+        label_result
+    )
 )
 
 label_formula = Label(
@@ -111,7 +117,7 @@ drop_down_2.place(x=7, y=150)
 drop_down_3.place(x=375, y=150)
 entry.place(x=7, y=110)
 label_result.place(x=375, y=110)
-label_equal.place(x=283, y=153)
+button_equal.place(x=290, y=135)
 label_formula.place(x=7, y=240)
 
 window.mainloop()
