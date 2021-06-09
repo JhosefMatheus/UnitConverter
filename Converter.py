@@ -6098,4 +6098,596 @@ class Converter:
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Terabit':
+                if option_drop_down_3 == 'Bit':
+                    try:
+                        operation = int(entry_value)*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kilobit':
+                    try:
+                        operation = int(entry_value)*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit':
+                    try:
+                        operation = int(entry_value)*9.766*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit':
+                    try:
+                        operation = int(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit':
+                    try:
+                        operation = int(entry_value)*953674
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit':
+                    try:
+                        operation = int(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit':
+                    try:
+                        operation = int(entry_value)*931
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit':
+                    try:
+                        operation = int(entry_value)/1.1
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Petabit':
+                    try:
+                        operation = int(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pebibit':
+                    try:
+                        operation = int(entry_value)/1126
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Byte':
+                    try:
+                        operation = int(entry_value)*1.25*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kilobyte':
+                    try:
+                        operation = int(entry_value)*1.25*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibyte':
+                    try:
+                        operation = int(entry_value)*1.221*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte':
+                    try:
+                        operation = int(entry_value)*125000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'MebiByte':
+                    try:
+                        operation = int(entry_value)*119209
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit':
+                    try:
+                        operation = int(entry_value)*125
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibyte':
+                    try:
+                        operation = int(entry_value)*116
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte':
+                    try:
+                        operation = int(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibyte':
+                    try:
+                        operation = int(entry_value)/8.796
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Petabyte':
+                    try:
+                        operation = int(entry_value)/8000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pebibyte':
+                    try:
+                        operation = int(entry_value)/9007
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Tebibit':
+                if option_drop_down_3 == 'Bit':
+                    try:
+                        operation = int(entry_value)*1.1*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kilobit':
+                    try:
+                        operation = int(entry_value)*1.1*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit':
+                    try:
+                        operation = int(entry_value)*1.074*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit':
+                    try:
+                        operation = int(entry_value)*1.1*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit':
+                    try:
+                        operation = int(entry_value)*1.049*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit':
+                    try:
+                        operation = int(entry_value)*1100
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErroMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit':
+                    try:
+                        operation = int(entry_value)*1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit':
+                    try:
+                        operation = int(entry_value)*1.1
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Petabit':
+                    try:
+                        operation = int(entry_value)/909
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pebibit':
+                    try:
+                        operation = int(entry_value)/1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Byte':
+                    try:
+                        operation = int(entry_value)*1.374*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kilobyte':
+                    try:
+                        operation = int(entry_value)*1.374*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibyte':
+                    try:
+                        operation = int(entry_value)*1.342*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte':
+                    try:
+                        operation = int(entry_value)*137439
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'MebiByte':
+                    try:
+                        operation = int(entry_value)*131072
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte':
+                    try:
+                        operation = int(entry_value)*137
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibyte':
+                    try:
+                        operation = int(entry_value)*128
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte':
+                    try:
+                        operation = int(entry_value)/7.276
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibyte':
+                    try:
+                        operation = int(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Petabyte':
+                    try:
+                        operation = int(entry_value)/7276
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+                elif option_drop_down_3 == 'Pebibyte':
+                    try:
+                        operation = int(entry_value)/8192
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Petabit':
+                if option_drop_down_3 == 'Bit':
+                    try:
+                        operation = int(entry_value)*10**15
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kilobit':
+                    try:
+                        operation = int(entry_value)*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit':
+                    try:
+                        operation = int(entry_value)*9.766*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit':
+                    try:
+                        operation = int(entry_value)*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit':
+                    try:
+                        operation = int(entry_value)*9.537*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit':
+                    try:
+                        operation = int(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit':
+                    try:
+                        operation = int(entry_value)*931323
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit':
+                    try:
+                        operation = int(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit':
+                    try:
+                        operation = int(entry_value)*909
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pebibit':
+                    try:
+                        operation = int(entry_value)/1.126
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Byte':
+                    try:
+                        operation = int(entry_value)*1.25*10**14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kilobyte':
+                    try:
+                        operation = int(entry_value)*1.25*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibyte':
+                    try:
+                        operation = int(entry_value)*1.221*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte':
+                    try:
+                        operation = int(entry_value)*1.25*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'MebiByte':
+                    try:
+                        operation = int(entry_value)*1.192*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte':
+                    try:
+                        operation = int(entry_value)*125000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibyte':
+                    try:
+                        operation = int(entry_value)*116415
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte':
+                    try:
+                        operation = int(entry_value)*125
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibyte':
+                    try:
+                        operation = int(entry_value)*114
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Petabyte':
+                    try:
+                        operation = int(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesge(label)
+                
+                elif option_drop_down_3 == 'Pebibyte':
+                    try:
+                        operation = int(entry_value)/9.007
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+            elif option_drop_down_2 == 'Pebibit':
+                if option_drop_down_3 == 'Bit':
+                    try:
+                        operation = int(entry_value)*1.126*10**15
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kilobit':
+                    try:
+                        operation = int(entry_value)*1.126*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit':
+                    try:
+                        operation = int(entry_value)*1.1*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit':
+                    try:
+                        operation = int(entry_value)*1.126*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit':
+                    try:
+                        operation = int(entry_value)*1.074*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit':
+                    try:
+                        operation = int(entry_value)*1.126*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit':
+                    try:
+                        operation = int(entry_value)*1.049*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit':
+                    try:
+                        operation = int(entry_value)*1126
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit':
+                    try:
+                        operation = int(entry_value)*1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Petabit':
+                    try:
+                        operation = int(entry_value)*1.126
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Byte':
+                    try:
+                        operation = int(entry_value)*1.407*10**14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kilobyte':
+                    try:
+                        operation = int(entry_value)*1.407*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibyte':
+                    try:
+                        operation = int(entry_value)*1.374*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte':
+                    try:
+                        operation = int(entry_value)*1.407*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'MebiByte':
+                    try:
+                        operation = int(entry_value)*1.342*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte':
+                    try:
+                        operation = int(entry_value)*140737
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibyte':
+                    try:
+                        operation = int(entry_value)*131072
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte':
+                    try:
+                        operation = int(entry_value)*141
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibyte':
+                    try:
+                        operation = int(entry_value)*128
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Petabyte':
+                    try:
+                        operation = int(entry_value)*7.105
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pebibyte':
+                    try:
+                        operation = int(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
                 
