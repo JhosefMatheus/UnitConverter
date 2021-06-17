@@ -8318,3 +8318,785 @@ class Converter:
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
+        
+        elif option_drop_down_1 == 'Comprimento':
+            if option_drop_down_2 == 'Quilômetro':
+                if option_drop_down_3 == 'Metro':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    try:
+                        operation = float(entry_value)*100000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    try:
+                        operation = float(entry_value)*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    try:
+                        operation = float(entry_value)*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha':
+                    try:
+                        operation = float(entry_value)/1.069
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda':
+                    try:
+                        operation = float(entry_value)*1094
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé':
+                    try:
+                        operation = float(entry_value)*3281
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada':
+                    try:
+                        operation = float(entry_value)*39370
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    try:
+                        operation = float(entry_value)/1.852
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Metro':
+                if option_drop_down_3 == 'Quilômetro':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    try:
+                        operation = float(entry_value)*100
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    try:
+                        operation = float(entry_value)*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha':
+                    try:
+                        operation = float(entry_value)/1609
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda':
+                    try:
+                        operation = float(entry_value)*1.094
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé':
+                    try:
+                        operation = float(entry_value)*3.281
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada':
+                    try:
+                        operation = float(entry_value)*39.37
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    try:
+                        operation = float(entry_value)/1852
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Centímetro':
+                if option_drop_down_3 == 'Quilômetro':
+                    try:
+                        operation = float(entry_value)/100000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro':
+                    try:
+                        operation = float(entry_value)/100
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    try:
+                        operation = float(entry_value)*10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    try:
+                        operation = float(entry_value)*10000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    try:
+                        operation = float(entry_value)*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha':
+                    try:
+                        operation = float(entry_value)/160934
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda':
+                    try:
+                        operation = float(entry_value)/91.44
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé':
+                    try:
+                        operation = float(entry_value)/30.48
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada':
+                    try:
+                        operation = float(entry_value)/2.54
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    try:
+                        operation = float(entry_value)/185200
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Milímetro':
+                if option_drop_down_3 == 'Quilômetro':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    try:
+                        operation = float(entry_value)/10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha':
+                    try:
+                        operation = float(entry_value)/1.609*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda':
+                    try:
+                        operation = float(entry_value)/914
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé':
+                    try:
+                        operation = float(entry_value)/305
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada':
+                    try:
+                        operation = float(entry_value)/25.4
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    try:
+                        operation = float(entry_value)/1.852*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Micrômetro':
+                if option_drop_down_3 == 'Quilômetro':
+                    try:
+                        operation = float(entry_value)/10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                    
+                elif option_drop_down_3 == 'Centímetro':
+                    try:
+                        operation = float(entry_value)/10000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha':
+                    try:
+                        operation = float(entry_value)/1.609*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda':
+                    try:
+                        operation = float(entry_value)/914400
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé':
+                    try:
+                        operation = float(entry_value)/304800
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada':
+                    try:
+                        operation = float(entry_value)/25400
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    try:
+                        operation = float(entry_value)/1.852*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Nanômetro':
+                if option_drop_down_3 == 'Quilômetro':
+                    try:
+                        operation = float(entry_value)/10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro':
+                    try:
+                        operation = float(entry_value)/10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    try:
+                        operation = float(entry_value)/10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha':
+                    try:
+                        operation = float(entry_value)/1.609*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda':
+                    try:
+                        operation = float(entry_value)/9.144*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé':
+                    try:
+                        operation = float(entry_value)/3.048*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada':
+                    try:
+                        operation = float(entry_value)/2.54*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    try:
+                        operation = float(entry_value)/1.852*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Milha':
+                if option_drop_down_3 == 'Quilômetro':
+                    try:
+                        operation = float(entry_value)*1.609
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro':
+                    try:
+                        operation = float(entry_value)*1609
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    try:
+                        operation = float(entry_value)*160934
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                    
+                elif option_drop_down_3 == 'Milímetro':
+                    try:
+                        operation = float(entry_value)*1.609*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    try:
+                        operation = float(entry_value)*1.609*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    try:
+                        operation = float(entry_value)*1.609*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda':
+                    try:
+                        operation = float(entry_value)*1760
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé':
+                    try:
+                        operation = float(entry_value)*5280
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada':
+                    try:
+                        operation = float(entry_value)*63360
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    try:
+                        operation = float(entry_value)/1.151
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Jarda':
+                if option_drop_down_3 == 'Quilômetro':
+                    try:
+                        operation = float(entry_value)/1094
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro':
+                    try:
+                        operation = float(entry_value)/1.904
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    try:
+                        operation = float(entry_value)*91.44
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    try:
+                        operation = float(entry_value)*914
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    try:
+                        operation = float(entry_value)*914400
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    try:
+                        operation = float(entry_value)*9.144*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha':
+                    try:
+                        operation = float(entry_value)/1760
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé':
+                    try:
+                        operation = float(entry_value)*3
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada':
+                    try:
+                        operation = float(entry_value)*36
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    try:
+                        operation = float(entry_value)/2025
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Pé':
+                if option_drop_down_3 == 'Quilômetro':
+                    try:
+                        operation = float(entry_value)/3281
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro':
+                    try:
+                        operation = float(entry_value)/3.281
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    try:
+                        operation = float(entry_value)*30.48
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    try:
+                        operation = float(entry_value)*305
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    try:
+                        operation = float(entry_value)*304800
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    try:
+                        operation = float(entry_value)*3.048*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha':
+                    try:
+                        operation = float(entry_value)/5280
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda':
+                    try:
+                        operation = float(entry_value)/3
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada':
+                    try:
+                        operation = float(entry_value)*12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    try:
+                        operation = float(entry_value)/6076
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Polegada':
+                if option_drop_down_3 == 'Quilômetro':
+                    try:
+                        operation = float(entry_value)/39370
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro':
+                    try:
+                        operation = float(entry_value)/39.37
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    try:
+                        operation = float(entry_value)*2.54
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    try:
+                        operation = float(entry_value)*25.4
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    try:
+                        operation = float(entry_value)*25400
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    try:
+                        operation = float(entry_value)*2.54*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha':
+                    try:
+                        operation = float(entry_value)/63360
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMessage(label)
+                
+                elif option_drop_down_3 == 'Jarda':
+                    try:
+                        operation = float(entry_value)/36
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé':
+                    try:
+                        operation = float(entry_value)/12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha náutica':
+                    try:
+                        operation = float(entry_value)/72913
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+            elif option_drop_down_2 == 'Milha náutica':
+                if option_drop_down_3 == 'Quilômetro':
+                    try:
+                        operation = float(entry_value)*1.852
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro':
+                    try:
+                        operation = float(entry_value)*1852
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Centímetro':
+                    try:
+                        operation = float(entry_value)*185200
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milímetro':
+                    try:
+                        operation = float(entry_value)*1.852*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrômetro':
+                    try:
+                        operation = float(entry_value)*1852*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nanômetro':
+                    try:
+                        operation = float(entry_value)*1.852*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha':
+                    try:
+                        operation = float(entry_value)*1.151
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda':
+                    try:
+                        operation = float(entry_value)*2025
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé':
+                    try:
+                        operation = float(entry_value)*6076
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada':
+                    try:
+                        operation = float(entry_value)*72913
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
