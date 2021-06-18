@@ -9100,3 +9100,92 @@ class Converter:
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
+        
+        elif option_drop_down_1 == 'Consumo de Combustível':
+            if option_drop_down_2 == 'Milha por galão americano':
+                if option_drop_down_3 == 'Milha por galão imperial':
+                    try:
+                        operation = float(entry_value)*1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilômetro por litro':
+                    try:
+                        operation = float(entry_value)/2.352
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro por 100 quilômetros':
+                    try:
+                        operation = 235.215/float(entry_value)
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Milha por galão imperial':
+                if option_drop_down_3 == 'Milha por galão americano':
+                    try:
+                        operation = float(entry_value)/1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilômetro por litro':
+                    try:
+                        operation = float(entry_value)/2.825
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro por 100 quilômetros':
+                    try:
+                        operation = 282.481/float(entry_value)
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+            elif option_drop_down_2 == 'Quilômetro por litro':
+                if option_drop_down_3 == 'Milha por galão americano':
+                    try:
+                        operation = float(entry_value)*2.352
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha por galão imperial':
+                    try:
+                        operation = float(entry_value)*2.825
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro por 100 quilômetros':
+                    try:
+                        operation = 100/float(entry_value)
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Litro por 100 quilômetros':
+                if option_drop_down_3 == 'Milha por galão americano':
+                    try:
+                        operation = 235.215/float(entry_value)
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha por galão imperial':
+                    try:
+                        operation = 282.481/float(entry_value)
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilômetro por litro':
+                    try:
+                        operation = 100/float(entry_value)
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
