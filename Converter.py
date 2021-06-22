@@ -9571,7 +9571,7 @@ class Converter:
                 elif option_drop_down_3 == 'Pé-libra força':
                     try:
                         operation = float(entry_value)*2.855*10**6
-                        label['text'] = str(oepration)
+                        label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
                 
