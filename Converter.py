@@ -9254,3 +9254,668 @@ class Converter:
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Quilojoule':
+                if option_drop_down_3 == 'Joule':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    try:
+                        operation = float(entry_value)*239
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    try:
+                        operation = float(entry_value)/4.184
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    try:
+                        operation = float(entry_value)/3.6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    try:
+                        operation = float(entry_value)/3600
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    try:
+                        operation = float(entry_value)*9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'BTU':
+                    try:
+                        operation = float(entry_value)/1.055
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    try:
+                        operation = float(entry_value)/105480
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    try:
+                        operation = float(entry_value)*738
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Gram calorie':
+                if option_drop_down_3 == 'Joule':
+                    try:
+                        operation = float(entry_value)*4.184
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    try:
+                        operation = float(entry_value)/239
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    try:
+                        operation = float(entry_value)/860
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    try:
+                        operation = float(entry_value)/860421
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    try:
+                        operation = float(entry_value)*9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'BTU':
+                    try:
+                        operation = float(entry_value)/252
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    try:
+                        operation = float(entry_value)/2.521*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    try:
+                        operation = float(entry_value)*3.086
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Quilocaloria':
+                if option_drop_down_3 == 'Joule':
+                    try:
+                        operation = float(entry_value)*4184
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    try:
+                        operation = float(entry_value)*4.184
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    try:
+                        operation = float(entry_value)*1.162
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    try:
+                        operation = float(entry_value)/860
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    try:
+                        operation = float(entry_value)*9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'BTU':
+                    try:
+                        operation = float(entry_value)*3.966
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    try:
+                        operation = float(entry_value)/25210
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    try:
+                        operation = float(entry_value)*3086
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Watt-hora':
+                if option_drop_down_3 == 'Joule':
+                    try:
+                        operation = float(entry_value)*3600
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    try:
+                        operation = float(entry_value)*3.6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    try:
+                        operation = float(entry_value)*860
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    try:
+                        operation = float(entry_value)/1.162
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    try:
+                        operation = float(entry_value)*9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'BTU':
+                    try:
+                        operation = float(entry_value)*3.412
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    try:
+                        operation = float(entry_value)/29300
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    try:
+                        operation = float(entry_value)*2655
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+            elif option_drop_down_2 == 'Quilowatt-hora':
+                if option_drop_down_3 == 'Joule':
+                    try:
+                        operation = float(entry_value)*3.6*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+                elif option_drop_down_3 == 'Quilojoule':
+                    try:
+                        operation = float(entry_value)*3600
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+                elif option_drop_down_3 == 'Gram calorie':
+                    try:
+                        operation = float(entry_value)*860421
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+                elif option_drop_down_3 == 'Quilocaloria':
+                    try:
+                        operation = float(entry_value)*860
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    try:
+                        operation = float(entry_value)*9.233*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'BTU':
+                    try:
+                        operation = float(entry_value)*3412
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    try:
+                        operation = float(entry_value)/29.3
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    try:
+                        operation = float(entry_value)*2.855*10**6
+                        label['text'] = str(oepration)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Elétron-volt':
+                if option_drop_down_3 == 'Joule':
+                    try:
+                        operation = float(entry_value)/6.242*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    try:
+                        operation = float(entry_value)/9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    try:
+                        operation = float(entry_value)/9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    try:
+                        operation = float(entry_value)/9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    try:
+                        operation = float(entry_value)/9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    try:
+                        operation = float(entry_value)/9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'BTU':
+                    try:
+                        operation = float(entry_value)/9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    try:
+                        operation = float(entry_value)/9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    try:
+                        operation = float(entry_value)*8.462*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'BTU':
+                if option_drop_down_3 == 'Joule':
+                    try:
+                        operation = float(entry_value)*1055
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    try:
+                        operation = float(entry_value)*1.055
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    try:
+                        operation = float(entry_value)*252
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    try:
+                        operation = float(entry_value)/3.966
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    try:
+                        operation = float(entry_value)/3.412
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    try:
+                        operation = float(entry_value)/3412
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    try:
+                        operation = float(entry_value)*9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    try:
+                        operation = float(entry_value)/99976
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    try:
+                        operation = float(entry_value)*778
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'therm (US)':
+                if option_drop_down_3 == 'Joule':
+                    try:
+                        operation = float(entry_value)*1.055*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    try:
+                        operation = float(entry_value)*105480
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    try:
+                        operation = float(entry_value)*2.521*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    try:
+                        operation = float(entry_value)*25210
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    try:
+                        operation = float(entry_value)*29300
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    try:
+                        operation = float(entry_value)*29.3
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    try:
+                        operation = float(entry_value)/9.223*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'BTU':
+                    try:
+                        operation == float(entry_value)*99976
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé-libra força':
+                    try:
+                        operation = float(entry_value)*7.87*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Pé-libra força':
+                if option_drop_down_3 == 'Joule':
+                    try:
+                        operation = float(entry_value)*1.356
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilojoule':
+                    try:
+                        operation = float(entry_value)/738
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gram calorie':
+                    try:
+                        operation = float(entry_value)/3.086
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilocaloria':
+                    try:
+                        operation = float(entry_value)/3086
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Watt-hora':
+                    try:
+                        operation = float(entry_value)/2655
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilowatt-hora':
+                    try:
+                        operation = float(entry_value)/2.655*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Elétron-volt':
+                    try:
+                        operation = float(entry_value)*8.462*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'BTU':
+                    try:
+                        operation = float(entry_value)/778
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'therm (US)':
+                    try:
+                        operation = float(entry_value)/7.78*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+        elif option_drop_down_1 == 'Frequência':
+            if option_drop_down_2 == 'Hertz':
+                if option_drop_down_3 == 'Quilo-hertz':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mega-hertz':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigahertz':
+                    try:
+                        operation = float(entry_value)/10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Quilo-hertz':
+                if option_drop_down_3 == 'Hertz':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mega-hertz':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigahertz':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Mega-hertz':
+                if option_drop_down_3 == 'Hertz':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilo-hertz':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigahertz':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Gigahertz':
+                if option_drop_down_3 == 'Hertz':
+                    try:
+                        operation = float(entry_value)*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilo-hertz':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mega-hertz':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
