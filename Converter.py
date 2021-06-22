@@ -9919,3 +9919,644 @@ class Converter:
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
+        
+        elif option_drop_down_1 == 'Massa':
+            if option_drop_down_2 == 'Tonelada':
+                if option_drop_down_3 == 'Quilograma':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grama':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    try:
+                        operation = float(entry_value)*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    try:
+                        operation = float(entry_value)*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    try:
+                        operation = float(entry_value)/1.016
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    try:
+                        operation = float(entry_value)*1.102
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Stone':
+                    try:
+                        operation = float(entry_value)*157
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Libra':
+                    try:
+                        operation = float(entry_value)*2205
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça':
+                    try:
+                        operation = float(entry_value)*35374
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Quilograma':
+                if option_drop_down_3 == 'Tonelada':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grama':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    try:
+                        operation = float(entry_value)*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    try:
+                        operation = float(entry_value)/1016
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    try:
+                        operation = float(entry_value)/907
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Stone':
+                    try:
+                        operation = float(entry_value)/6.35
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Libra':
+                    try:
+                        operation = float(entry_value)*2.205
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça':
+                    try:
+                        operation = float(entry_value)*35.274
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Grama':
+                if option_drop_down_3 == 'Tonelada':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+                elif option_drop_down_3 == 'Quilograma':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    try:
+                        operation = float(entry_value)/1.016*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    try:
+                        operation = float(entry_value)*907185
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Stone':
+                    try:
+                        operation = float(entry_value)/6350
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Libra':
+                    try:
+                        operation = float(entry_value)/454
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça':
+                    try:
+                        operation = float(entry_value)/28.35
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Miligrama':
+                if option_drop_down_3 == 'Tonelada':
+                    try:
+                        operation = float(entry_value)/10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grama':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    try:
+                        operation = float(entry_value)/1.016*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    try:
+                        operation = float(entry_value)/9.072*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Stone':
+                    try:
+                        operation = float(entry_value)/6.35*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Libra':
+                    try:
+                        operation = float(entry_value)/453592
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça':
+                    try:
+                        operation = float(entry_value)/28350
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Micrograma':
+                if option_drop_down_3 == 'Tonelada':
+                    try:
+                        operation = float(entry_value)/10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    try:
+                        operation = float(entry_value)/10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grama':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    try:
+                        operation = float(entry_value)/1.016*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    try:
+                        operation = float(entry_value)/9.072*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Stone':
+                    try:
+                        operation = float(entry_operation)/6.35*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Libra':
+                    try:
+                        operation = float(entry_value)/4.536*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça':
+                    try:
+                        operation = float(entry_value)/2.835*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Tonelada de deslocamento':
+                if option_drop_down_3 == 'Tonelada':
+                    try:
+                        operation = float(entry_value)*1.016
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    try:
+                        operation = float(entry_value)*1016
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grama':
+                    try:
+                        operation = float(entry_value)*1.016*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    try:
+                        operation = float(entry_value)*1.016*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    try:
+                        operation = float(entry_value)*1.016*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    try:
+                        operation = float(entry_value)*1.12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Stone':
+                    try:
+                        operation = float(entry_value)*160
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Libra':
+                    try:
+                        operation = float(entry_value)*2240
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça':
+                    try:
+                        operation = float(entry_value)*35840
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Tonelada curta':
+                if option_drop_down_3 == 'Tonelada':
+                    try:
+                        operation = float(entry_value)/1.102
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    try:
+                        operation = float(entry_value)*907
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grama':
+                    try:
+                        operation = float(entry_value)*907185
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    try:
+                        operation = float(entry_value)*9.072*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    try:
+                        operation = float(entry_value)*9.072*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    try:
+                        operation = float(entry_value)/1.12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Stone':
+                    try:
+                        operation = float(entry_value)*143
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Libra':
+                    try:
+                        operation = float(entry_value)*2000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça':
+                    try:
+                        operation = float(entry_value)*32000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Stone':
+                if option_drop_down_3 == 'Tonelada':
+                    try:
+                        operation = float(entry_value)/157
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    try:
+                        operation = float(entry_value)*6.35
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grama':
+                    try:
+                        operation = float(entry_value)*6350
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    try:
+                        operation = float(entry_value)*6.35*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    try:
+                        operation = float(entry_value)*6.35*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    try:
+                        operation = float(entry_value)/160
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    try:
+                        operation = float(entry_value)/143
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Libra':
+                    try:
+                        operation = float(entry_value)*14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça':
+                    try:
+                        operation = float(entry_value)*224
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Libra':
+                if option_drop_down_3 == 'Tonelada':
+                    try:
+                        operation = float(entry_value)/2205
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    try:
+                        operation = float(entry_value)/2.205
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grama':
+                    try:
+                        operation = float(entry_value)*454
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    try:
+                        operation = float(entry_value)*453592
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    try:
+                        operation = float(entry_value)*4.536*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    try:
+                        operation = float(entry_value)/2240
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    try:
+                        operation = float(entry_value)/2000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Stone':
+                    try:
+                        operation = float(entry_value)/14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça':
+                    try:
+                        operation = float(entry_value)*16
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Onça':
+                if option_drop_down_3 == 'Tonelada':
+                    try:
+                        operation = float(entry_value)/35274
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilograma':
+                    try:
+                        operation = float(entry_value)/35.274
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grama':
+                    try:
+                        operation = float(entry_value)*28.35
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Miligrama':
+                    try:
+                        operation = float(entry_value)*28350
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Micrograma':
+                    try:
+                        operation = float(entry_value)*2.835*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada de deslocamento':
+                    try:
+                        operation = float(entry_value)/35840
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tonelada curta':
+                    try:
+                        operation = float(entry_value)/32000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Stone':
+                    try:
+                        operation = float(entry_value)/224
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Libra':
+                    try:
+                        operation = float(entry_value)/16
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
