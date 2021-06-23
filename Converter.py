@@ -10222,7 +10222,7 @@ class Converter:
                 
                 elif option_drop_down_3 == 'Stone':
                     try:
-                        operation = float(entry_operation)/6.35*10**9
+                        operation = float(entry_value)/6.35*10**9
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
@@ -10557,6 +10557,198 @@ class Converter:
                 elif option_drop_down_3 == 'Libra':
                     try:
                         operation = float(entry_value)/16
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+        
+        elif option_drop_down_1 == 'Pressão':
+            if option_drop_down_2 == 'Atmosfera padrão':
+                if option_drop_down_3 == 'Bar':
+                    try:
+                        operation = float(entry_value)*1.013
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pascal':
+                    try:
+                        operation = float(entry_value)*101325
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Psi':
+                    try:
+                        operation = float(entry_value)*14.696
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Torr':
+                    try:
+                        operation = float(entry_value)*760
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Bar':
+                if option_drop_down_3 == 'Atmosfera padrão':
+                    try:
+                        operation = float(entry_value)/1.013
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pascal':
+                    try:
+                        operation = float(entry_value)*100000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Psi':
+                    try:
+                        operation = float(entry_value)/14.504
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Torr':
+                    try:
+                        operation = float(entry_value)*750
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Pascal':
+                if option_drop_down_3 == 'Atmosfera padrão':
+                    try:
+                        operation = float(entry_value)/101325
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Bar':
+                    try:
+                        operation = float(entry_value)/100000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Psi':
+                    try:
+                        operation = float(entry_value)/6895
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Torr':
+                    try:
+                        operation = float(entry_value)/133
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Psi':
+                if option_drop_down_3 == 'Atmosfera padrão':
+                    try:
+                        operation = float(entry_value)/14.696
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Bar':
+                    try:
+                        operation = float(entry_value)/14.504
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pascal':
+                    try:
+                        operation = float(entry_value)*6895
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Torr':
+                    try:
+                        operation = float(entry_value)*51.715
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Torr':
+                if option_drop_down_3 == 'Atmosfera padrão':
+                    try:
+                        operation = float(entry_value)/760
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Bar':
+                    try:
+                        operation = float(entry_value)/750
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pascal':
+                    try:
+                        operation = float(entry_value)*133
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Psi':
+                    try:
+                        operation = float(entry_value)/51.715
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+        
+        elif option_drop_down_1 == 'Temperatura':
+            if option_drop_down_2 == 'Grau Celsius':
+                if option_drop_down_3 == 'Grau Fahrenheit':
+                    try:
+                        operation = (float(entry_value) * 9/5) + 32
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kelvin':
+                    try:
+                        operation = float(entry_value) + 273.15
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Grau Fahrenheit':
+                if option_drop_down_3 == 'Grau Celsius':
+                    try:
+                        operation = (float(entry_value) - 32) * 5/9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kelvin':
+                    try:
+                        operation = (float(entry_value) - 32) * 5/9 + 273.15
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Kelvin':
+                if option_drop_down_3 == 'Grau Celsius':
+                    try:
+                        operation = float(entry_value) - 273.15
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grau Fahrenheit':
+                    try:
+                        operation = (float(entry_value) - 273.15) * 9/5 + 32
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
