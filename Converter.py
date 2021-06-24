@@ -9755,7 +9755,7 @@ class Converter:
                 
                 elif option_drop_down_3 == 'BTU':
                     try:
-                        operation == float(entry_value)*99976
+                        operation = float(entry_value)*99976
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
@@ -10749,6 +10749,943 @@ class Converter:
                 elif option_drop_down_3 == 'Grau Fahrenheit':
                     try:
                         operation = (float(entry_value) - 273.15) * 9/5 + 32
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+        
+        elif option_drop_down_1 == 'Tempo':
+            if option_drop_down_2 == 'Nanosegundo':
+                if option_drop_down_3 == 'Microssegundo':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo':
+                    try:
+                        operation = float(entry_value)/10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto':
+                    try:
+                        operation = float(entry_value)/6*10**10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hora':
+                    try:
+                        operation = float(entry_value)/3.6*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Dia':
+                    try:
+                        operation = float(entry_value)/8.64*10**13
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Semana':
+                    try:
+                        operation = float(entry_value)/6.048*10**14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mês':
+                    try:
+                        operation = float(entry_value)/2.628*10**15
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    try:
+                        operation = float(entry_value)/3.154*10**16
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Década':
+                    try:
+                        operation = float(entry_value)/3.154*10**17
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                    
+                elif option_drop_down_3 == 'Século':
+                    try:
+                        operation = float(entry_value)/3.154*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Microssegundo':
+                if option_drop_down_3 == 'Nanosegundo':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+                elif option_drop_down_3 == 'Milissegundo':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto':
+                    try:
+                        operation = float(entry_value)/6*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hora':
+                    try:
+                        operation = float(entry_value)/3.6*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Dia':
+                    try:
+                        operation = float(entry_value)/8.64*10**10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Semana':
+                    try:
+                        operation = float(entry_value)/6.048*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mês':
+                    try:
+                        operation = float(entry_value)/2.628*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    try:
+                        operation = float(entry_value)/3.154*10**13
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Década':
+                    try:
+                        operation = float(entry_value)/3.154*10**14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Século':
+                    try:
+                        operation = float(entry_value)/3.154*10**15
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Milissegundo':
+                if option_drop_down_3 == 'Nanosegundo':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto':
+                    try:
+                        operation = float(entry_value)/600000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hora':
+                    try:
+                        operation = float(entry_value)/3.6*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Dia':
+                    try:
+                        operation = float(entry_value)/8.64*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Semana':
+                    try:
+                        operation = float(entry_value)/6.048*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mês':
+                    try:
+                        operation = float(entry_value)/2.628*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    try:
+                        operation = float(entry_value)/3.154*10**10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Década':
+                    try:
+                        operation = float(entry_value)/3.154*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Século':
+                    try:
+                        operation = float(entry_value)/3.154*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Segundo':
+                if option_drop_down_3 == 'Nanosegundo':
+                    try:
+                        operation = float(entry_value)*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto':
+                    try:
+                        operation = float(entry_value)/60
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hora':
+                    try:
+                        operation = float(entry_value)/3600
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Dia':
+                    try:
+                        operation = float(entry_value)/86400
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Semana':
+                    try:
+                        operation = float(entry_value)/604800
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mês':
+                    try:
+                        operation = float(entry_value)/2.628*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    try:
+                        operation = float(entry_value)/3.154*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Década':
+                    try:
+                        operation = float(entry_value)/3.154*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Século':
+                    try:
+                        operation = float(entry_value)/3.154*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+            elif option_drop_down_2 == 'Minuto':
+                if option_drop_down_3 == 'Nanosegundo':
+                    try:
+                        operation = float(entry_value)*6*10**10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    try:
+                        operation = float(entry_value)*6*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    try:
+                        operation = float(entry_value)*60000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo':
+                    try:
+                        operation = float(entry_value)*60
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hora':
+                    try:
+                        operation = float(entry_value)/60
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Dia':
+                    try:
+                        operation = float(entry_value)/1440
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Semana':
+                    try:
+                        operation = float(entry_value)/10080
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mês':
+                    try:
+                        operation = float(entry_value)/43800
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    try:
+                        operation = float(entry_value)/525600
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Década':
+                    try:
+                        operation = float(entry_value)/5.256*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Século':
+                    try:
+                        operation = float(entry_value)/5.256*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Hora':
+                if option_drop_down_3 == 'Nanosegundo':
+                    try:
+                        operation = float(entry_value)*3.6*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    try:
+                        operation = float(entry_value)*3.6*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    try:
+                        operation = float(entry_value)*3.6*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo':
+                    try:
+                        operation = float(entry_value)*3600
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto':
+                    try:
+                        operation = float(entry_value)*60
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Dia':
+                    try:
+                        operation = float(entry_value)/24
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Semana':
+                    try:
+                        operation = float(entry_value)/168
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mês':
+                    try:
+                        operation = float(entry_value)/730
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    try:
+                        operation = float(entry_value)/8760
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Década':
+                    try:
+                        operation = float(entry_value)/87600
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Século':
+                    try:
+                        operation = float(entry_value)/876000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Dia':
+                if option_drop_down_3 == 'Nanosegundo':
+                    try:
+                        operation = float(entry_value)*8.64*10**13
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    try:
+                        operation = float(entry_value)*8.64*10**10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    try:
+                        operation = float(entry_value)*8.64*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo':
+                    try:
+                        operation = float(entry_value)*86400
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto':
+                    try:
+                        operation = float(entry_value)*1440
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hora':
+                    try:
+                        operation = float(entry_value)*24
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Semana':
+                    try:
+                        operation = float(entry_value)/7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mês':
+                    try:
+                        operation = float(entry_value)/30.417
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    try:
+                        operation = float(entry_value)/365
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Década':
+                    try:
+                        operation = float(entry_value)/3650
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Século':
+                    try:
+                        operation = float(entry_value)/36500
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+            elif option_drop_down_2 == 'Semana':
+                if option_drop_down_3 == 'Nanosegundo':
+                    try:
+                        operation = float(entry_value)*6.048*10**14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    try:
+                        operation = float(entry_value)*6.048*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    try:
+                        operation = float(entry_value)*6.048*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo':
+                    try:
+                        operation = float(entry_value)*604800
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto':
+                    try:
+                        operation = float(entry_value)*10080
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hora':
+                    try:
+                        operation = float(entry_value)*168
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Dia':
+                    try:
+                        operation = float(entry_value)*7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mês':
+                    try:
+                        operation = float(entry_value)/4.345
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    try:
+                        operation = float(entry_value)/52.143
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+                elif option_drop_down_3 == 'Década':
+                    try:
+                        operation = float(entry_value)/521
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Século':
+                    try:
+                        operation = float(entry_value)/5214
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Mês':
+                if option_drop_down_3 == 'Nanosegundo':
+                    try:
+                        operation = float(entry_value)*2.628*10**15
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    try:
+                        operation = float(entry_value)*2.628*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    try:
+                        operation = float(entry_value)*2.628*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+                elif option_drop_down_3 == 'Segundo':
+                    try:
+                        operation = float(entry_value)*2.628*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto':
+                    try:
+                        operation = float(entry_value)*43800
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hora':
+                    try:
+                        operation = float(entry_value)*730
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Dia':
+                    try:
+                        operation = float(entry_value)*30.417
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Semana':
+                    try:
+                        operation = float(entry_value)*4.345
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    try:
+                        operation = float(entry_value)/12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Década':
+                    try:
+                        operation = float(entry_value)/120
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Século':
+                    try:
+                        operation = float(entry_value)/1200
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Ano-calendário':
+                if option_drop_down_3 == 'Nanosegundo':
+                    try:
+                        operation = float(entry_value)*3.154*10**16
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    try:
+                        operation = float(entry_value)*3.154*10**13
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    try:
+                        operation = float(entry_value)*3.154*10**10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo':
+                    try:
+                        operation = float(entry_value)*3.154*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto':
+                    try:
+                        operation = float(entry_value)*525600
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hora':
+                    try:
+                        operation = float(entry_value)*8760
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Dia':
+                    try:
+                        operation = float(entry_value)*365
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Semana':
+                    try:
+                        operation = float(entry_value)*52.143
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mês':
+                    try:
+                        operation = float(entry_value)*12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Década':
+                    try:
+                        operation = float(entry_value)/10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Século':
+                    try:
+                        operation = float(entry_value)/100
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Década':
+                if option_drop_down_3 == 'Nanosegundo':
+                    try:
+                        operation = float(entry_value)/3.154*10**17
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    try:
+                        operation = float(entry_value)*3.154*10**14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    try:
+                        operation = float(entry_value)*3.154*10**11
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo':
+                    try:
+                        operation = float(entry_value)*3.154*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto':
+                    try:
+                        operation = float(entry_value)*5.256*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hora':
+                    try:
+                        operation = float(entry_value)*87600
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Dia':
+                    try:
+                        operation = float(entry_value)*3650
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Semana':
+                    try:
+                        operation = float(entry_value)*521
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mês':
+                    try:
+                        operation = float(entry_value)*120
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    try:
+                        operation = float(entry_value)*10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Século':
+                    try:
+                        operation = float(entry_value)/10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Século':
+                if option_drop_down_3 == 'Nanosegundo':
+                    try:
+                        operation = float(entry_value)*3.154*10**18
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Microssegundo':
+                    try:
+                        operation = float(entry_value)*3.154*10**15
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milissegundo':
+                    try:
+                        operation = float(entry_value)*3.154*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo':
+                    try:
+                        operation = float(entry_value)*3.154*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto':
+                    try:
+                        operation = float(entry_value)*5.256*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hora':
+                    try:
+                        operation = float(entry_value)*876000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Dia':
+                    try:
+                        operation = float(entry_value)*36500
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Semana':
+                    try:
+                        operation = float(entry_value)*5214
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mês':
+                    try:
+                        operation = float(entry_value)*1200
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Ano-calendário':
+                    try:
+                        operation = float(entry_value)*100
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Década':
+                    try:
+                        operation = float(entry_value)*10
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
