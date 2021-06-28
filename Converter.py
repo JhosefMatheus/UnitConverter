@@ -11689,3 +11689,1109 @@ class Converter:
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
+
+        elif option_drop_down_1 == 'Transmissão de dados':
+            if option_drop_down_2 == 'Bit por segundo':
+                if option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)/8000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)/1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.049*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)/10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.074*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)/10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.1*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Quilobit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1049
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.074*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)/10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.1*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Quilobyte por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*8000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)*8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)*7.812
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    try:
+                        operation = float(entry_value)/125
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)/131
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)/125000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)/134218
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)/1.25*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.374*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Kibibit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)*1.024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)/7.812
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    try:
+                        operation = float(entry_value)/977
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)/7813
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)/976562
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)/7.812*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.049*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)/9.766*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/7.812*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.074*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Megabit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)*125
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)*977
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.049
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)/1074
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.1*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Megabyte por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*8*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)*8000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)*7813
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    try:
+                        operation = float(entry_value)*8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)*7.629
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)/125
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)/134
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)/125000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/137439
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Megabit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*1.049*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)*1049
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)*131
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)*1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)*1.049
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)/7.629
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)/954
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)/7629
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)/1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)/953674
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/7.629*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.049*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Gigabit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)*125000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)*976563
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)*125
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)*954
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.074
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1100
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Gigabyte por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*8*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)*8*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)*7.812*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    try:
+                        operation = float(entry_value)*8000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)*7629
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)*8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)*7.451
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)/125
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/137
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Gibibit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*1.074*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)*1.074*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)*134218
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)*1.049*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    try:
+                        operation = float(entry_value)*1074
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)*134
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)*1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)*1.074
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)*7.451
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)/931
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/7451
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Terabit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)*1.25*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)*9.766*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)*125000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)*953674
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)*125
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)*931
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/1.1
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Terabyte por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*8*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)*8*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)*7.812*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    try:
+                        operation = float(entry_value)*8*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)*7.629*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)*8000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)*7451
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)*8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Tebibit por segundo':
+                    try:
+                        operation = float(entry_value)/7.276
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Tebibit por segundo':
+                if option_drop_down_3 == 'Bit por segundo':
+                    try:
+                        operation = float(entry_value)*1.1*10**12
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobit por segundo':
+                    try:
+                        operation = float(entry_value)*1.1*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilobyte por segundo':
+                    try:
+                        operation = float(entry_value)*1.374*10**8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Kibibit por segundo':
+                    try:
+                        operation = float(entry_value)*1.074*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabit por segundo':
+                    try:
+                        operation = float(entry_value)*1.1*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Megabyte por segundo':
+                    try:
+                        operation = float(entry_value)*137439
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mebibit por segundo':
+                    try:
+                        operation = float(entry_value)*1.049*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabit por segundo':
+                    try:
+                        operation = float(entry_value)*1100
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gigabyte por segundo':
+                    try:
+                        operation = float(entry_value)*137
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Gibibit por segundo':
+                    try:
+                        operation = float(entry_value)*1024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabit por segundo':
+                    try:
+                        operation = float(entry_value)*1.1
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Terabyte por segundo':
+                    try:
+                        operation = float(entry_value)/7.276
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
