@@ -12941,3 +12941,3035 @@ class Converter:
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
+        
+        elif option_drop_down_1 == 'Volume':
+            if option_drop_down_2 == 'Galão americano':
+                if option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)*4
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)*8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)*15.773
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)*128
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*256
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*768
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/264
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)*3.785
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*3785
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    try:
+                        operation = float(entry_value)/1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)*3.331
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)*6.661
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)*13.323
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)*133
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)*213
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*639
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/7.481
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)*231
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Quarto líquido americano':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/4
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)*2
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)*3.943
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)*32
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*64
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*192
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/1057
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/1.057
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*946
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    try:
+                        operation = float(entry_value)/4.804
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)*1.665
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)*3.331
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)*33.307
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)*53.291
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*160
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/29.922
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)*57.75
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Pinta americana':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/2
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)*1.972
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)*16
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*32
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*96
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/2113
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/2.113
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*473
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    try:
+                        operation = float(entry_value)/9.608
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/2.402
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)/1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)*1.665
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)*16.653
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)*26.646
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*79.937
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/59.844
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)*28.875
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Copo':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/15.773
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/3.943
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)/1.972
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)*8.115
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*16.231
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*48.692
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/4167
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/4.167
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*240
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    try:
+                        operation = float(entry_value)/18.942
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/4.736
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)/2.368
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)/1.184
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)/8.447
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)*13.515
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*40.545
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)*118
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)*14.646
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Onça líquida americana':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/128
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/32
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)/16
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)/8.115
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*2
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/33814
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/33.814
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*29.574
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    try:
+                        operation = float(entry_value)/154
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/38.43
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)/19.215
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)/9.608
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)*1.041
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)*1.665
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*4.996
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/958
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)*1.805
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Colher de sopa americana':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/256
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/64
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)/32
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)/16.231
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)/2
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*3
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/67628
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/67.628
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*14.787
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    try:
+                        operation = float(entry_value)/307
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/76.861
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)/38.43
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)/19.215
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)/1.922
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)/1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*2.498
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/1915
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)/1.108
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Colher de chá americana':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/768
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/192
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)/96
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)/48.692
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)/6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)/3
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/202884
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/203
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*4.929
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    try:
+                        operation = float(entry_value)/922
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/231
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)/115
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)/57.646
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)/5.765
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)/3.603
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)/1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/5745
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)/3.325
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Metro cúbico':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)*264
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)*1057
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)*2113
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)*4167
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)*33814
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*67628
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*202884
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    try:
+                        operation = float(entry_value)*220
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)*880
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)*1760
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)*3250
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)*35195
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)*56312
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*168936
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)*35.135
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)*61024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Litro':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/3.785
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)*1057
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)*2113
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)*4167
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)*33.814
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*67.628
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*203
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    try:
+                        operation = float(entry_value)/4.546
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/1.137
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)/1.76
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)/3.52
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)/35.195
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)/56.312
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*169
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/28.317
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)*61.024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Mililitro':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/3785
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/946
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)/473
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)/240
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)/29.574
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)/14.787
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)/4.929
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão Imperial':
+                    try:
+                        operation = float(entry_value)/4546
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/1137
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)/568
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)/284
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)/28.413
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)/17.758
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)/5.919
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/28317
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)/16.387
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Galão Imperial':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)*1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)*4.804
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)*9.608
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)*18.942
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)*154
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*307
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*922
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/220
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)*4.546
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*4546
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)*4
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)*8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)*16
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)*160
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)*256
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*768
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/6.229
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)/277
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Quarto imperial':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/3.331
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)*1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)*2.402
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)*4.736
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)*38.43
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*76.861
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*231
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/880
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)*1.137
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*1137
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão imperial':
+                    try:
+                        operation = float(entry_value)/4
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto imperial':
+                    try:
+                        operation = float(entry_value)*2
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)*4
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)*40
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)*64
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*192
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/24.915
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)/69.355
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Pinto imperial':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/6.661
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/1.665
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)*1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)*2.368
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)*19.215
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*38.43
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*115
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/1760
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/1.76
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*568
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão imperial':
+                    try:
+                        operation = float(entry_value)/8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/2
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)*2
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)*20
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)*32
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*96
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/49.831
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)/34.677
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Xícara Imperial':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/13.323
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/3.331
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)/1.665
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)*1.184
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)*9.608
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*19.215
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*57.646
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/3520
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/3.52
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*284
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão imperial':
+                    try:
+                        operation = float(entry_value)/16
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/4
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto Imperial':
+                    try:
+                        operation = float(entry_value)/2
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)*10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)*16
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*48
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/99.661
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)/17.339
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Onça líquida imperial':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/133
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/33.307
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)/16.653
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)/8.447
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)/1.041
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*1.922
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)/5.765
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/35195
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/35.195
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*28.413
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão imperial':
+                    try:
+                        operation = float(entry_value)/160
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/40
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto Imperial':
+                    try:
+                        operation = float(entry_value)/20
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)/10
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa Imperial':
+                    try:
+                        operation = float(entry_value)*1.6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*4.8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/997
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)/1.734
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Colher de sopa Imperial':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/213
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/53.291
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)/26.646
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)/13.515
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)/1.665
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*3.603
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/56312
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/56.312
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*17.758
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão imperial':
+                    try:
+                        operation = float(entry_value)/256
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/64
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto Imperial':
+                    try:
+                        operation = float(entry_value)/32
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)/16
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)/1.6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*3
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/1595
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)/1.084
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Colher de chá Imperial':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/639
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/160
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)/79.937
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)/40.545
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)/4.996
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)/2.498
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*1.201
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/168936
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/169
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*5.919
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão imperial':
+                    try:
+                        operation = float(entry_value)/768
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/192
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto Imperial':
+                    try:
+                        operation = float(entry_value)/96
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)/48
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)/4.8
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de Sopa Imperial':
+                    try:
+                        operation = float(entry_value)/3
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/4784
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)/2.768
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Pé cúbico':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)*7.481
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)*29.922
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)*59.844
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)*118
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)*958
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*1915
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*5745
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/35.315
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)*28.317
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*28317
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão imperial':
+                    try:
+                        operation = float(entry_value)*6.229
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)*24.915
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto Imperial':
+                    try:
+                        operation = float(entry_value)*49.831
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)*99.661
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)*997
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de Sopa Imperial':
+                    try:
+                        operation = float(entry_value)*1595
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*4784
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada cúbica':
+                    try:
+                        operation = float(entry_value)*1728
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Polegada cúbica':
+                if option_drop_down_3 == 'Galão americano':
+                    try:
+                        operation = float(entry_value)/231
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto líquido americano':
+                    try:
+                        operation = float(entry_value)/57.75
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinta americana':
+                    try:
+                        operation = float(entry_value)/28.875
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Copo':
+                    try:
+                        operation = float(entry_value)/14.646
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida americana':
+                    try:
+                        operation = float(entry_value)/1.805
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de sopa americana':
+                    try:
+                        operation = float(entry_value)*1.108
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá americana':
+                    try:
+                        operation = float(entry_value)*3.325
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro cúbico':
+                    try:
+                        operation = float(entry_value)/61024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Litro':
+                    try:
+                        operation = float(entry_value)/61.024
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mililitro':
+                    try:
+                        operation = float(entry_value)*16.387
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Galão imperial':
+                    try:
+                        operation = float(entry_value)/277
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quarto imperial':
+                    try:
+                        operation = float(entry_value)/69.355
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pinto Imperial':
+                    try:
+                        operation = float(entry_value)/34.677
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Xícara Imperial':
+                    try:
+                        operation = float(entry_value)/17.339
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Onça líquida imperial':
+                    try:
+                        operation = float(entry_value)/1.734
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de Sopa Imperial':
+                    try:
+                        operation = float(entry_value)/1.084
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Colher de chá Imperial':
+                    try:
+                        operation = float(entry_value)*2.768
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé cúbico':
+                    try:
+                        operation = float(entry_value)/1728
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+        
+        elif option_drop_down_1 == 'Área':
+            if option_drop_down_2 == 'Quilômetro quadrado':
+                if option_drop_down_3 == 'Metro quadrado':
+                    try:
+                        operation = float(entry_value)*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha quadrada':
+                    try:
+                        operation = float(entry_value)/2.59
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda quadrada':
+                    try:
+                        operation = float(entry_value)*1.196*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé quadrado':
+                    try:
+                        operation = float(entry_value)*1.076*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada quadrada':
+                    try:
+                        operation = float(entry_value)*1.55*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hecatre':
+                    try:
+                        operation = float(entry_value)*100
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Acre':
+                    try:
+                        operation = float(entry_value)*247
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Metro quadrado':
+                if option_drop_down_3 == 'Quilômetro quadrado':
+                    try:
+                        operation = float(entry_value)/10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha quadrada':
+                    try:
+                        operation = float(entry_value)/2.59*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda quadrada':
+                    try:
+                        operation = float(entry_value)*1.196
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé quadrado':
+                    try:
+                        operation = float(entry_value)*10.764
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada quadrada':
+                    try:
+                        operation = float(entry_value)*1550
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hecatre':
+                    try:
+                        operation = float(entry_value)/10000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Acre':
+                    try:
+                        operation = float(entry_value)/4047
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Milha quadrada':
+                if option_drop_down_3 == 'Quilômetro quadrado':
+                    try:
+                        operation = float(entry_value)*2.59
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro quadrado':
+                    try:
+                        operation = float(entry_value)*2.59*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda quadrada':
+                    try:
+                        operation = float(entry_value)*3.098*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé quadrado':
+                    try:
+                        operation = float(entry_value)*2.788*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada quadrada':
+                    try:
+                        operation = float(entry_value)*4.104*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hecatre':
+                    try:
+                        operation = float(entry_value)*259
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Acre':
+                    try:
+                        operation = float(entry_value)*60
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Jarda quadrada':
+                if option_drop_down_3 == 'Quilômetro quadrado':
+                    try:
+                        operation = float(entry_value)/1.196*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro quadrado':
+                    try:
+                        operation = float(entry_value)/1.196
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha quadrada':
+                    try:
+                        operation = float(entry_value)/3.098*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé quadrado':
+                    try:
+                        operation = float(entry_value)*9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada quadrada':
+                    try:
+                        operation = float(entry_value)*1296
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hecatre':
+                    try:
+                        operation = float(entry_value)/11960
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Acre':
+                    try:
+                        operation = float(entry_value)/4840
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Pé quadrado':
+                if option_drop_down_3 == 'Quilômetro quadrado':
+                    try:
+                        operation = float(entry_value)/1.076*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro quadrado':
+                    try:
+                        operation = float(entry_value)/10.764
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha quadrada':
+                    try:
+                        operation = float(entry_value)/2.788*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda quadrada':
+                    try:
+                        operation = float(entry_value)/9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada quadrada':
+                    try:
+                        operation = float(entry_value)*144
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hecatre':
+                    try:
+                        operation = float(entry_value)/107639
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Acre':
+                    try:
+                        operation = float(entry_value)/43560
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Polegada quadrada':
+                if option_drop_down_3 == 'Quilômetro quadrado':
+                    try:
+                        operation = float(entry_value)/1.55*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro quadrado':
+                    try:
+                        operation = float(entry_value)/1550
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha quadrada':
+                    try:
+                        operation = float(entry_value)/4.104*10**9
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda quadrada':
+                    try:
+                        operation = float(entry_value)/1296
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé quadrado':
+                    try:
+                        operation = float(entry_value)/144
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hecatre':
+                    try:
+                        operation = float(entry_value)/1.55*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Acre':
+                    try:
+                        operation = float(entry_value)/6.276*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Hectare quadrado':
+                if option_drop_down_3 == 'Quilômetro quadrado':
+                    try:
+                        operation = float(entry_value)/100
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro quadrado':
+                    try:
+                        operation = float(entry_value)*10000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha quadrada':
+                    try:
+                        operation = float(entry_value)/259
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda quadrada':
+                    try:
+                        operation = float(entry_value)*11960
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé quadrado':
+                    try:
+                        operation = float(entry_value)*107639
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada quadrada':
+                    try:
+                        operation = float(entry_value)*1.55*10**7
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Acre':
+                    try:
+                        operation = float(entry_value)*2.471
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Acre':
+                if option_drop_down_3 == 'Quilômetro quadrado':
+                    try:
+                        operation = float(entry_value)/247
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro quadrado':
+                    try:
+                        operation = float(entry_value)*4047
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Milha quadrada':
+                    try:
+                        operation = float(entry_value)/640
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Jarda quadrada':
+                    try:
+                        operation = float(entry_value)*4840
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pé quadrado':
+                    try:
+                        operation = float(entry_value)*43560
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Polegada quadrada':
+                    try:
+                        operation = float(entry_value)*6.273*10**6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Hectare':
+                    try:
+                        operation = float(entry_value)/2.471
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+        
+        elif option_drop_down_1 == 'Ângulo':
+            if option_drop_down_2 == 'Grado':
+                if option_drop_down_3 == 'Grau':
+                    try:
+                        operation = float(entry_value)*180/200
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mil angular':
+                    try:
+                        operation = float(entry_value)*1000*3.14/200
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto de arco':
+                    try:
+                        operation = float(entry_value)*54
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Radiano':
+                    try:
+                        operation = float(entry_value)*3.14/200
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo de arco':
+                    try:
+                        operation = float(entry_value)*3240
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Grau':
+                if option_drop_down_3 == 'Grado':
+                    try:
+                        operation = float(entry_value)*200/180
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mil angular':
+                    try:
+                        operation = float(entry_value)*1000*3.14/180
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto de arco':
+                    try:
+                        operation = float(entry_value)*60
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Radiano':
+                    try:
+                        operation = float(entry_value)*3.14/180
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo de arco':
+                    try:
+                        operation = float(entry_value)*3600
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Mil angular':
+                if option_drop_down_3 == 'Grado':
+                    try:
+                        operation = float(entry_value)*200/1000*3.14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grau':
+                    try:
+                        operation = float(entry_value)*(1000*3.14/180)**-1
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto de arco':
+                    try:
+                        operation = float(entry_value)*(60*180)/1000*3.14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Radiano':
+                    try:
+                        operation = float(entry_value)/1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo de arco':
+                    try:
+                        operation = float(entry_value)*(3600*180)/1000*3.14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Minuto de arco':
+                if option_drop_down_3 == 'Grado':
+                    try:
+                        operation = float(entry_value)/54
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grau':
+                    try:
+                        operation = float(entry_value)/60
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mil angular':
+                    try:
+                        operation = float(entry_value)*((60*180)/1000*3.14)-1
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Radiano':
+                    try:
+                        operation = float(entry_value)*3.14/(60*180)
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo de arco':
+                    try:
+                        operation = float(entry_value)*60
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Radiano':
+                if option_drop_down_3 == 'Grado':
+                    try:
+                        operation = float(entry_value)*200/3.14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grau':
+                    try:
+                        operation = float(entry_value)*180/3.14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mil angular':
+                    try:
+                        operation = float(entry_value)*1000
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto de arco':
+                    try:
+                        operation = float(entry_value)*(3.14/(60*180))**-1
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Segundo de arco':
+                    try:
+                        operation = float(entry_value)*(3600*180)/3.14
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Segundo de arco':
+                if option_drop_down_3 == 'Grado':
+                    try:
+                        operation = float(entry_value)/3240
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Grau':
+                    try:
+                        operation = float(entry_value)/3600
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Mil angular':
+                    try:
+                        operation = float(entry_value)*1000*3.14/(180*3600)
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Minuto de arco':
+                    try:
+                        operation = float(entry_value)/60
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Radiano':
+                    try:
+                        operation = float(entry_value)*((3600*180)/3.14)**-1
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
