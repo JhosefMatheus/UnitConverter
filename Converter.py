@@ -12795,3 +12795,149 @@ class Converter:
                         label['text'] = str(operation)
                     except Exception as e:
                         self.setErrorMesage(label)
+        
+        elif option_drop_down_1 == 'Velocidade':
+            if option_drop_down_2 == 'Milha por hora':
+                if option_drop_down_3 == 'Pés por segundo':
+                    try:
+                        operation = float(entry_value)*1.467
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro por segundo':
+                    try:
+                        operation = float(entry_value)/2.237
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+                elif option_drop_down_3 == 'Quilômetro por hora':
+                    try:
+                        operation = float(entry_value)*1.609
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+
+                elif option_drop_down_3 == 'Nó':
+                    try:
+                        operation = float(entry_value)/1.151
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Pés por segundo':
+                if option_drop_down_3 == 'Milha por hora':
+                    try:
+                        operation = float(entry_value)/1.467
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro por segundo':
+                    try:
+                        operation = float(entry_value)/3.281
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilômetro por hora':
+                    try:
+                        operation = float(entry_value)*1.907
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nó':
+                    try:
+                        operation = float(entry_value)/1.688
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Metro por segundo':
+                if option_drop_down_3 == 'Milha por hora':
+                    try:
+                        operation = float(entry_value)*2.237
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pés por segundo':
+                    try:
+                        operation = float(entry_value)*3.281
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilômetro por hora':
+                    try:
+                        operation = float(entry_value)*3.6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nó':
+                    try:
+                        operation = float(entry_value)*1.944
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Quilômetro por hora':
+                if option_drop_down_3 == 'Milha por hora':
+                    try:
+                        operation = float(entry_value)/1.609
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pés por segundo':
+                    try:
+                        operation = float(entry_value)/1.097
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro por segundo':
+                    try:
+                        operation = float(entry_value)/3.6
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Nó':
+                    try:
+                        operation = float(entry_value)/1.852
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+            
+            elif option_drop_down_2 == 'Nó':
+                if option_drop_down_3 == 'Milha por hora':
+                    try:
+                        operation = float(entry_value)*1.151
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Pés por segundo':
+                    try:
+                        operation = float(entry_value)*1.688
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Metro por segundo':
+                    try:
+                        operation = float(entry_value)/1.944
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
+                
+                elif option_drop_down_3 == 'Quilômetro por hora':
+                    try:
+                        operation = float(entry_value)*1.852
+                        label['text'] = str(operation)
+                    except Exception as e:
+                        self.setErrorMesage(label)
